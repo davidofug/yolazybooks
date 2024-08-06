@@ -17,9 +17,6 @@ const environment = {
 	appwritePayeeCollectionId: String(
 		process.env.NEXT_PUBLIC_APPWRITE_PAYEE_COLLECTION_ID
 	),
-	appwriteProfilesCollectionId: String(
-		process.env.NEXT_PUBLIC_APPWRITE_PROFILES_COLLECTION_ID
-	),
 	appwriteContributionsCollectionId: String(
 		process.env.NEXT_PUBLIC_APPWRITE_CONTRIBUTIONS_COLLECTION_ID
 	),
