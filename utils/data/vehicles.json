@@ -1,0 +1,34 @@
+[
+    {
+        "licensePlate":"UAB2345",
+        "chassisNumber":"9203",
+        "carType":[
+            {
+                "make":"BMW",
+                "logoField":"",
+                "logoUrl":""
+            }
+        ],
+        "currentMileage":"300km",
+        "lastServiceDate":"23/08/2023",
+        "lastServicesOffered":[
+            {
+                "name":"",
+                "description":"",
+                "thumbnailField":"",
+                "thumbnailUrl":"",
+                "createdBy":"",
+                "updatedAt":""
+            }
+        ],
+        "lastServiceGarageName":"",
+        "garage":[
+            {
+                "name":"",
+                "garageAddress":""
+            }
+        ],
+        "userId":"01292",
+        "updatedAt":""
+    }
+]

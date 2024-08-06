@@ -1,0 +1,45 @@
+Feature: Customer Login
+As a customer
+I want to be able to log in to the system by providing my phone number and the OTP received
+So that I can access my account and perform various tasks
+
+Scenario: Customer successfully logs in with valid phone number and OTP
+Given the customer is on the login page
+When the customer enters a valid phone number
+And the customer requests an OTP
+And the customer receives a valid OTP
+And the customer enters the valid OTP
+Then the customer should be redirected to the account dashboard
+
+Scenario: Customer enters invalid phone number
+Given the customer is on the login page
+When the customer enters an invalid phone number
+And the customer requests an OTP
+Then an error message should be displayed indicating the invalid phone number
+
+Scenario: Customer requests OTP without entering a phone number
+Given the customer is on the login page
+When the customer requests an OTP without entering a phone number
+Then an error message should be displayed indicating the missing phone number
+
+Scenario: Customer receives invalid OTP
+Given the customer is on the login page
+And the customer has entered a valid phone number
+When the customer requests an OTP
+And the customer receives an invalid OTP
+Then an error message should be displayed indicating the invalid OTP
+
+Scenario: Customer enters incorrect OTP
+Given the customer is on the login page
+And the customer has entered a valid phone number
+When the customer requests an OTP
+And the customer receives a valid OTP
+And the customer enters an incorrect OTP
+Then an error message should be displayed indicating the incorrect OTP
+
+Scenario: Customer enters expired OTP
+Given the customer is on the login page
+And the customer has entered a valid phone number
+When the customer requests an OTP
+And the customer receives an expired OTP
+Then an error message should be displayed indicating the expired OTP

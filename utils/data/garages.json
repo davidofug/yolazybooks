@@ -1,0 +1,3672 @@
+[
+    {    
+        "name": "Walusimbi's Garage",
+        "createdAt": "2021-08-16T15:27:28.277Z",
+        "status": "suspended",
+        "district": "Kampala",
+        "address": "1234 Main St",
+        "logo": "https://via.placeholder.com/150",
+        "averageRating": 5,
+        "totalReviews": 2,
+        "carTypes": [
+            {
+                "make": "Toyota",
+                "logoUrl": "https://1000logos.net/wp-content/uploads/2021/04/Toyota-logo-768x432.png"
+            },
+            {
+                "make": "Mercedes",
+                "logoUrl": "https://1000logos.net/wp-content/uploads/2018/04/Mercedes-Benz-Logo.png"
+            },
+            {
+                "make": "BMW",
+                "logoUrl": "https://1000logos.net/wp-content/uploads/2018/02/BMW-Logo.png"
+            },
+            {
+                "make": "Honda",
+                "logoUrl": "https://1000logos.net/wp-content/uploads/2018/03/Honda-logo.png"
+            }
+        ],
+        "servicesOffered": [
+            { 
+                "name":"Oil Change",
+                "price": 100000,
+                "description": "Oil Change",
+                "currency": "UGX",
+                "id": "1"
+            },
+            { 
+                "name": "Tire Rotation",
+                "price": 100000,
+                "description": "Tire Rotation",
+                "currency": "UGX",
+                "id": "2"
+            },
+            {
+                "name": "Tire Replacement",
+                "price": 100000,
+                "description": "Tire Replacement",
+                "currency": "UGX",
+                "id": "3"
+            },
+            {
+                "name": "Brake Replacement",
+                "price": 100000,
+                "description": "Brake Replacement",
+                "currency": "UGX",
+                "id": "4"
+            },
+            {
+                "name": "Brake Repair",
+                "price": 100000,
+                "description": "Brake Repair",
+                "currency": "UGX",
+                "id": "5"
+            },
+            {
+                "name": "Engine Repair",
+                "price": 100000,
+                "description": "Engine Repair",
+                "currency": "UGX",
+                "id": "6"
+            },
+            {
+                "name": "Engine Replacement",
+                "price": 100000,
+                "description": "Engine Replacement",
+                "currency": "UGX",
+                "id": "7"
+            },
+            {
+                "name": "Transmission Repair",
+                "price": 100000,
+                "description": "Transmission Repair",
+                "currency": "UGX",
+                "id": "8"
+            },
+            { 
+                "name": "Transmission Replacement",
+                "price": 100000,
+                "description": "Transmission Replacement",
+                "currency": "UGX",
+                "id": "9"
+            }
+            
+        ],
+        "contactPerson": {
+            "name": "walusimbi",
+            "email": "walusimbi@gmail.com",
+            "phone": "0777777777",
+            "gender": "male",
+            "salutation": "mr",
+            "role": "operations manager"
+        },
+        "appointments": [
+            {
+                "date": "2023-08-16T15:27:28.277Z",
+                "time": "05:31:08",
+                "id": "898",
+                "notes": "Employee travel that entire.",
+                "garage": {
+                  "name": "Greer, Parks and Kim",
+                  "id": "460"
+                },
+                "services": [
+                  {
+                    "name": "Oil Change",
+                    "id": "1"
+                  },
+                  {
+                    "name": "Tire Rotation",
+                    "id": "2"
+                  }
+                ],
+                "status": "scheduled",
+                "vehicles": [
+                  {
+                    "make": "Honda",
+                    "model": "Camry",
+                    "year": "2010",
+                    "licensePlate": "UAX 123A"
+                  }
+                ],
+                "rating": {
+                    "value": 3,
+                    "createdAt": "2023-08-16T15:27:28.277Z",
+                    "status": "pending",
+                    "comment": "Excellent service! My car was fixed quickly and the staff was very friendly."
+                }
+            },
+            {
+                "date": "2023-08-16T15:27:28.277Z",
+                "time": "05:31:08",
+                "id": "898",
+                "notes": "Employee travel that entire.",
+                "garage": {
+                  "name": "Greer, Parks and Kim",
+                  "id": "460"
+                },
+                "services": [
+                  {
+                    "name": "Oil Change",
+                    "id": "1"
+                  },
+                  {
+                    "name": "Tire Rotation",
+                    "id": "2"
+                  }
+                ],
+                "status": "scheduled",
+                "vehicles": [
+                  {
+                    "make": "Honda",
+                    "model": "Camry",
+                    "year": "2010",
+                    "licensePlate":"UAW 445Z"
+                  }
+                ]
+            }
+        ]
+    },
+    {    
+        "name": "Walusimbi's Garage",
+        "createdAt": "2021-08-16T15:27:28.277Z",
+        "status": "suspended",
+        "district": "Kampala",
+        "address": "1234 Main St",
+        "logo": "https://via.placeholder.com/150",
+        "contactPerson": {
+            "name": "walusimbi",
+            "email": "walusimbi@gmail.com",
+            "phone": "0777777777",
+            "gender": "male",
+            "salutation": "mr",
+            "role": "operations manager"
+        },
+        "averageRating": 5,
+        "totalReviews": 2,
+        "servicesOffered": [
+            { 
+                "name":"Oil Change",
+                "price": 100000,
+                "description": "Oil Change",
+                "currency": "UGX",
+                "id": "1"
+            },
+            { 
+                "name": "Tire Rotation",
+                "price": 100000,
+                "description": "Tire Rotation",
+                "currency": "UGX",
+                "id": "2"
+            },
+            {
+                "name": "Tire Replacement",
+                "price": 100000,
+                "description": "Tire Replacement",
+                "currency": "UGX",
+                "id": "3"
+            },
+            {
+                "name": "Brake Replacement",
+                "price": 100000,
+                "description": "Brake Replacement",
+                "currency": "UGX",
+                "id": "4"
+            },
+            {
+                "name": "Brake Repair",
+                "price": 100000,
+                "description": "Brake Repair",
+                "currency": "UGX",
+                "id": "5"
+            },
+            {
+                "name": "Engine Repair",
+                "price": 100000,
+                "description": "Engine Repair",
+                "currency": "UGX",
+                "id": "6"
+            },
+            {
+                "name": "Engine Replacement",
+                "price": 100000,
+                "description": "Engine Replacement",
+                "currency": "UGX",
+                "id": "7"
+            },
+            {
+                "name": "Transmission Repair",
+                "price": 100000,
+                "description": "Transmission Repair",
+                "currency": "UGX",
+                "id": "8"
+            },
+            { 
+                "name": "Transmission Replacement",
+                "price": 100000,
+                "description": "Transmission Replacement",
+                "currency": "UGX",
+                "id": "9"
+            }
+            
+        ],
+        "appointments": [
+            {
+                "date": "2023-08-16T15:27:28.277Z",
+                "time": "05:31:08",
+                "id": "898",
+                "notes": "Employee travel that entire.",
+                "garage": {
+                  "name": "Greer, Parks and Kim",
+                  "id": "460"
+                },
+                "services": [
+                  {
+                    "name": "Oil Change",
+                    "id": "1"
+                  },
+                  {
+                    "name": "Tire Rotation",
+                    "id": "2"
+                  }
+                ],
+                "status": "scheduled",
+                "vehicles": [
+                  {
+                    "make": "Honda",
+                    "model": "Camry",
+                    "year": "2010",
+                    "licensePlate": "UAX 123A"
+                  }
+                ],
+                "rating": {
+                    "value": 3,
+                    "createdAt": "2023-08-16T15:27:28.277Z",
+                    "status": "pending",
+                    "comment": "Excellent service! My car was fixed quickly and the staff was very friendly."
+                }
+            },
+            {
+                "date": "2023-08-16T15:27:28.277Z",
+                "time": "05:31:08",
+                "id": "898",
+                "notes": "Employee travel that entire.",
+                "garage": {
+                  "name": "Greer, Parks and Kim",
+                  "id": "460"
+                },
+                "services": [
+                  {
+                    "name": "Oil Change",
+                    "id": "1"
+                  },
+                  {
+                    "name": "Tire Rotation",
+                    "id": "2"
+                  }
+                ],
+                "status": "scheduled",
+                "vehicles": [
+                  {
+                    "make": "Honda",
+                    "model": "Camry",
+                    "year": "2010",
+                    "licensePlate":"UAW 445Z"
+                  }
+                ]
+            }
+        ]
+    },
+    {    
+        "name": "Walusimbi's Garage",
+        "createdAt": "2021-08-16T15:27:28.277Z",
+        "status": "suspended",
+        "district": "Kampala",
+        "address": "1234 Main St",
+        "logo": "https://via.placeholder.com/150",
+        "contactPerson": {
+            "name": "walusimbi",
+            "email": "walusimbi@gmail.com",
+            "phone": "0777777777",
+            "gender": "male",
+            "salutation": "mr",
+            "role": "operations manager"
+        },
+        "averageRating": 2,
+        "totalReviews": 2,
+        "servicesOffered": [
+            { 
+                "name":"Oil Change",
+                "price": 100000,
+                "description": "Oil Change",
+                "currency": "UGX",
+                "id": "1"
+            },
+            { 
+                "name": "Tire Rotation",
+                "price": 100000,
+                "description": "Tire Rotation",
+                "currency": "UGX",
+                "id": "2"
+            },
+            {
+                "name": "Tire Replacement",
+                "price": 100000,
+                "description": "Tire Replacement",
+                "currency": "UGX",
+                "id": "3"
+            },
+            {
+                "name": "Brake Replacement",
+                "price": 100000,
+                "description": "Brake Replacement",
+                "currency": "UGX",
+                "id": "4"
+            },
+            {
+                "name": "Brake Repair",
+                "price": 100000,
+                "description": "Brake Repair",
+                "currency": "UGX",
+                "id": "5"
+            },
+            {
+                "name": "Engine Repair",
+                "price": 100000,
+                "description": "Engine Repair",
+                "currency": "UGX",
+                "id": "6"
+            },
+            {
+                "name": "Engine Replacement",
+                "price": 100000,
+                "description": "Engine Replacement",
+                "currency": "UGX",
+                "id": "7"
+            },
+            {
+                "name": "Transmission Repair",
+                "price": 100000,
+                "description": "Transmission Repair",
+                "currency": "UGX",
+                "id": "8"
+            },
+            { 
+                "name": "Transmission Replacement",
+                "price": 100000,
+                "description": "Transmission Replacement",
+                "currency": "UGX",
+                "id": "9"
+            }
+            
+        ],
+        "appointments": [
+            {
+                "date": "2023-08-16T15:27:28.277Z",
+                "time": "05:31:08",
+                "id": "898",
+                "notes": "Employee travel that entire.",
+                "garage": {
+                  "name": "Greer, Parks and Kim",
+                  "id": "460"
+                },
+                "services": [
+                  {
+                    "name": "Oil Change",
+                    "id": "1"
+                  },
+                  {
+                    "name": "Tire Rotation",
+                    "id": "2"
+                  }
+                ],
+                "status": "scheduled",
+                "vehicles": [
+                  {
+                    "make": "Honda",
+                    "model": "Camry",
+                    "year": "2010",
+                    "licensePlate": "UAX 123A"
+                  }
+                ],
+                "rating": {
+                    "value": 3,
+                    "createdAt": "2023-08-16T15:27:28.277Z",
+                    "status": "pending",
+                    "comment": "Excellent service! My car was fixed quickly and the staff was very friendly."
+                }
+            },
+            {
+                "date": "2023-08-16T15:27:28.277Z",
+                "time": "05:31:08",
+                "id": "898",
+                "notes": "Employee travel that entire.",
+                "garage": {
+                  "name": "Greer, Parks and Kim",
+                  "id": "460"
+                },
+                "services": [
+                  {
+                    "name": "Oil Change",
+                    "id": "1"
+                  },
+                  {
+                    "name": "Tire Rotation",
+                    "id": "2"
+                  }
+                ],
+                "status": "scheduled",
+                "vehicles": [
+                  {
+                    "make": "Honda",
+                    "model": "Camry",
+                    "year": "2010",
+                    "licensePlate":"UAW 445Z"
+                  }
+                ]
+            }
+        ]
+    },
+    {    
+        "name": "Walusimbi's Garage",
+        "createdAt": "2021-08-16T15:27:28.277Z",
+        "status": "suspended",
+        "district": "Kampala",
+        "address": "1234 Main St",
+        "logo": "https://via.placeholder.com/150",
+        "contactPerson": {
+            "name": "walusimbi",
+            "email": "walusimbi@gmail.com",
+            "phone": "0777777777",
+            "gender": "male",
+            "salutation": "mr",
+            "role": "operations manager"
+        },
+        "averageRating": 2,
+        "totalReviews": 2,
+        "servicesOffered": [
+            { 
+                "name":"Oil Change",
+                "price": 100000,
+                "description": "Oil Change",
+                "currency": "UGX",
+                "id": "1"
+            },
+            { 
+                "name": "Tire Rotation",
+                "price": 100000,
+                "description": "Tire Rotation",
+                "currency": "UGX",
+                "id": "2"
+            },
+            {
+                "name": "Tire Replacement",
+                "price": 100000,
+                "description": "Tire Replacement",
+                "currency": "UGX",
+                "id": "3"
+            },
+            {
+                "name": "Brake Replacement",
+                "price": 100000,
+                "description": "Brake Replacement",
+                "currency": "UGX",
+                "id": "4"
+            },
+            {
+                "name": "Brake Repair",
+                "price": 100000,
+                "description": "Brake Repair",
+                "currency": "UGX",
+                "id": "5"
+            },
+            {
+                "name": "Engine Repair",
+                "price": 100000,
+                "description": "Engine Repair",
+                "currency": "UGX",
+                "id": "6"
+            },
+            {
+                "name": "Engine Replacement",
+                "price": 100000,
+                "description": "Engine Replacement",
+                "currency": "UGX",
+                "id": "7"
+            },
+            {
+                "name": "Transmission Repair",
+                "price": 100000,
+                "description": "Transmission Repair",
+                "currency": "UGX",
+                "id": "8"
+            },
+            { 
+                "name": "Transmission Replacement",
+                "price": 100000,
+                "description": "Transmission Replacement",
+                "currency": "UGX",
+                "id": "9"
+            }
+            
+        ],  
+        "appointments": [
+            {
+                "date": "2023-08-16T15:27:28.277Z",
+                "time": "05:31:08",
+                "id": "898",
+                "notes": "Employee travel that entire.",
+                "garage": {
+                  "name": "Greer, Parks and Kim",
+                  "id": "460"
+                },
+                "services": [
+                  {
+                    "name": "Oil Change",
+                    "id": "1"
+                  },
+                  {
+                    "name": "Tire Rotation",
+                    "id": "2"
+                  }
+                ],
+                "status": "scheduled",
+                "vehicles": [
+                  {
+                    "make": "Honda",
+                    "model": "Camry",
+                    "year": "2010",
+                    "licensePlate": "UAX 123A"
+                  }
+                ],
+                "rating": {
+                    "value": 3,
+                    "createdAt": "2023-08-16T15:27:28.277Z",
+                    "status": "pending",
+                    "comment": "Excellent service! My car was fixed quickly and the staff was very friendly."
+                }
+            },
+            {
+                "date": "2023-08-16T15:27:28.277Z",
+                "time": "05:31:08",
+                "id": "898",
+                "notes": "Employee travel that entire.",
+                "garage": {
+                  "name": "Greer, Parks and Kim",
+                  "id": "460"
+                },
+                "services": [
+                  {
+                    "name": "Oil Change",
+                    "id": "1"
+                  },
+                  {
+                    "name": "Tire Rotation",
+                    "id": "2"
+                  }
+                ],
+                "status": "scheduled",
+                "vehicles": [
+                  {
+                    "make": "Honda",
+                    "model": "Camry",
+                    "year": "2010",
+                    "licensePlate":"UAW 445Z"
+                  }
+                ]
+            }
+        ]
+    },
+    {    
+        "name": "Walusimbi's Garage",
+        "createdAt": "2021-08-16T15:27:28.277Z",
+        "status": "suspended",
+        "district": "Kampala",
+        "address": "1234 Main St",
+        "logo": "https://via.placeholder.com/150",
+        "contactPerson": {
+            "name": "walusimbi",
+            "email": "walusimbi@gmail.com",
+            "phone": "0777777777",
+            "gender": "male",
+            "salutation": "mr",
+            "role": "operations manager"
+        },
+        "averageRating": 2,
+        "totalReviews": 2,
+        "servicesOffered": [
+            { 
+                "name":"Oil Change",
+                "price": 100000,
+                "description": "Oil Change",
+                "currency": "UGX",
+                "id": "1"
+            },
+            { 
+                "name": "Tire Rotation",
+                "price": 100000,
+                "description": "Tire Rotation",
+                "currency": "UGX",
+                "id": "2"
+            },
+            {
+                "name": "Tire Replacement",
+                "price": 100000,
+                "description": "Tire Replacement",
+                "currency": "UGX",
+                "id": "3"
+            },
+            {
+                "name": "Brake Replacement",
+                "price": 100000,
+                "description": "Brake Replacement",
+                "currency": "UGX",
+                "id": "4"
+            },
+            {
+                "name": "Brake Repair",
+                "price": 100000,
+                "description": "Brake Repair",
+                "currency": "UGX",
+                "id": "5"
+            },
+            {
+                "name": "Engine Repair",
+                "price": 100000,
+                "description": "Engine Repair",
+                "currency": "UGX",
+                "id": "6"
+            },
+            {
+                "name": "Engine Replacement",
+                "price": 100000,
+                "description": "Engine Replacement",
+                "currency": "UGX",
+                "id": "7"
+            },
+            {
+                "name": "Transmission Repair",
+                "price": 100000,
+                "description": "Transmission Repair",
+                "currency": "UGX",
+                "id": "8"
+            },
+            { 
+                "name": "Transmission Replacement",
+                "price": 100000,
+                "description": "Transmission Replacement",
+                "currency": "UGX",
+                "id": "9"
+            }
+            
+        ],
+        "appointments": [
+            {
+                "date": "2023-08-16T15:27:28.277Z",
+                "time": "05:31:08",
+                "id": "898",
+                "notes": "Employee travel that entire.",
+                "garage": {
+                  "name": "Greer, Parks and Kim",
+                  "id": "460"
+                },
+                "services": [
+                  {
+                    "name": "Oil Change",
+                    "id": "1"
+                  },
+                  {
+                    "name": "Tire Rotation",
+                    "id": "2"
+                  }
+                ],
+                "status": "scheduled",
+                "vehicles": [
+                  {
+                    "make": "Honda",
+                    "model": "Camry",
+                    "year": "2010",
+                    "licensePlate": "UAX 123A"
+                  }
+                ],
+                "rating": {
+                    "value": 3,
+                    "createdAt": "2023-08-16T15:27:28.277Z",
+                    "status": "pending",
+                    "comment": "Excellent service! My car was fixed quickly and the staff was very friendly."
+                }
+            },
+            {
+                "date": "2023-08-16T15:27:28.277Z",
+                "time": "05:31:08",
+                "id": "898",
+                "notes": "Employee travel that entire.",
+                "garage": {
+                  "name": "Greer, Parks and Kim",
+                  "id": "460"
+                },
+                "services": [
+                  {
+                    "name": "Oil Change",
+                    "id": "1"
+                  },
+                  {
+                    "name": "Tire Rotation",
+                    "id": "2"
+                  }
+                ],
+                "status": "scheduled",
+                "vehicles": [
+                  {
+                    "make": "Honda",
+                    "model": "Camry",
+                    "year": "2010",
+                    "licensePlate":"UAW 445Z"
+                  }
+                ]
+            }
+        ]
+    },
+    {    
+        "name": "Walusimbi's Garage",
+        "createdAt": "2021-08-16T15:27:28.277Z",
+        "status": "suspended",
+        "district": "Kampala",
+        "address": "1234 Main St",
+        "logo": "https://via.placeholder.com/150",
+        "contactPerson": {
+            "name": "walusimbi",
+            "email": "walusimbi@gmail.com",
+            "phone": "0777777777",
+            "gender": "male",
+            "salutation": "mr",
+            "role": "operations manager"
+        },
+        "averageRating": 2,
+        "totalReviews": 2, 
+        "servicesOffered": [
+            { 
+                "name":"Oil Change",
+                "price": 100000,
+                "description": "Oil Change",
+                "currency": "UGX",
+                "id": "1"
+            },
+            { 
+                "name": "Tire Rotation",
+                "price": 100000,
+                "description": "Tire Rotation",
+                "currency": "UGX",
+                "id": "2"
+            },
+            {
+                "name": "Tire Replacement",
+                "price": 100000,
+                "description": "Tire Replacement",
+                "currency": "UGX",
+                "id": "3"
+            },
+            {
+                "name": "Brake Replacement",
+                "price": 100000,
+                "description": "Brake Replacement",
+                "currency": "UGX",
+                "id": "4"
+            },
+            {
+                "name": "Brake Repair",
+                "price": 100000,
+                "description": "Brake Repair",
+                "currency": "UGX",
+                "id": "5"
+            },
+            {
+                "name": "Engine Repair",
+                "price": 100000,
+                "description": "Engine Repair",
+                "currency": "UGX",
+                "id": "6"
+            },
+            {
+                "name": "Engine Replacement",
+                "price": 100000,
+                "description": "Engine Replacement",
+                "currency": "UGX",
+                "id": "7"
+            },
+            {
+                "name": "Transmission Repair",
+                "price": 100000,
+                "description": "Transmission Repair",
+                "currency": "UGX",
+                "id": "8"
+            },
+            { 
+                "name": "Transmission Replacement",
+                "price": 100000,
+                "description": "Transmission Replacement",
+                "currency": "UGX",
+                "id": "9"
+            }
+            
+        ], 
+        "appointments": [
+            {
+                "date": "2023-08-16T15:27:28.277Z",
+                "time": "05:31:08",
+                "id": "898",
+                "notes": "Employee travel that entire.",
+                "garage": {
+                  "name": "Greer, Parks and Kim",
+                  "id": "460"
+                },
+                "services": [
+                  {
+                    "name": "Oil Change",
+                    "id": "1"
+                  },
+                  {
+                    "name": "Tire Rotation",
+                    "id": "2"
+                  }
+                ],
+                "status": "scheduled",
+                "vehicles": [
+                  {
+                    "make": "Honda",
+                    "model": "Camry",
+                    "year": "2010",
+                    "licensePlate": "UAX 123A"
+                  }
+                ],
+                "rating": {
+                    "value": 3,
+                    "createdAt": "2023-08-16T15:27:28.277Z",
+                    "status": "pending",
+                    "comment": "Excellent service! My car was fixed quickly and the staff was very friendly."
+                }
+            },
+            {
+                "date": "2023-08-16T15:27:28.277Z",
+                "time": "05:31:08",
+                "id": "898",
+                "notes": "Employee travel that entire.",
+                "garage": {
+                  "name": "Greer, Parks and Kim",
+                  "id": "460"
+                },
+                "services": [
+                  {
+                    "name": "Oil Change",
+                    "id": "1"
+                  },
+                  {
+                    "name": "Tire Rotation",
+                    "id": "2"
+                  }
+                ],
+                "status": "scheduled",
+                "vehicles": [
+                  {
+                    "make": "Honda",
+                    "model": "Camry",
+                    "year": "2010",
+                    "licensePlate":"UAW 445Z"
+                  }
+                ]
+            }
+        ]
+    },
+    {    
+        "name": "Walusimbi's Garage",
+        "createdAt": "2021-08-16T15:27:28.277Z",
+        "status": "suspended",
+        "district": "Kampala",
+        "address": "1234 Main St",
+        "logo": "https://via.placeholder.com/150",
+        "contactPerson": {
+            "name": "walusimbi",
+            "email": "walusimbi@gmail.com",
+            "phone": "0777777777",
+            "gender": "male",
+            "salutation": "mr",
+            "role": "operations manager"
+        },
+        "averageRating": 2,
+        "totalReviews": 2,
+        "servicesOffered": [
+            { 
+                "name":"Oil Change",
+                "price": 100000,
+                "description": "Oil Change",
+                "currency": "UGX",
+                "id": "1"
+            },
+            { 
+                "name": "Tire Rotation",
+                "price": 100000,
+                "description": "Tire Rotation",
+                "currency": "UGX",
+                "id": "2"
+            },
+            {
+                "name": "Tire Replacement",
+                "price": 100000,
+                "description": "Tire Replacement",
+                "currency": "UGX",
+                "id": "3"
+            },
+            {
+                "name": "Brake Replacement",
+                "price": 100000,
+                "description": "Brake Replacement",
+                "currency": "UGX",
+                "id": "4"
+            },
+            {
+                "name": "Brake Repair",
+                "price": 100000,
+                "description": "Brake Repair",
+                "currency": "UGX",
+                "id": "5"
+            },
+            {
+                "name": "Engine Repair",
+                "price": 100000,
+                "description": "Engine Repair",
+                "currency": "UGX",
+                "id": "6"
+            },
+            {
+                "name": "Engine Replacement",
+                "price": 100000,
+                "description": "Engine Replacement",
+                "currency": "UGX",
+                "id": "7"
+            },
+            {
+                "name": "Transmission Repair",
+                "price": 100000,
+                "description": "Transmission Repair",
+                "currency": "UGX",
+                "id": "8"
+            },
+            { 
+                "name": "Transmission Replacement",
+                "price": 100000,
+                "description": "Transmission Replacement",
+                "currency": "UGX",
+                "id": "9"
+            }
+            
+        ],
+        "appointments": [
+            {
+                "date": "2023-08-16T15:27:28.277Z",
+                "time": "05:31:08",
+                "id": "898",
+                "notes": "Employee travel that entire.",
+                "garage": {
+                  "name": "Greer, Parks and Kim",
+                  "id": "460"
+                },
+                "services": [
+                  {
+                    "name": "Oil Change",
+                    "id": "1"
+                  },
+                  {
+                    "name": "Tire Rotation",
+                    "id": "2"
+                  }
+                ],
+                "status": "scheduled",
+                "vehicles": [
+                  {
+                    "make": "Honda",
+                    "model": "Camry",
+                    "year": "2010",
+                    "licensePlate": "UAX 123A"
+                  }
+                ],
+                "rating": {
+                    "value": 3,
+                    "createdAt": "2023-08-16T15:27:28.277Z",
+                    "status": "pending",
+                    "comment": "Excellent service! My car was fixed quickly and the staff was very friendly."
+                }
+            },
+            {
+                "date": "2023-08-16T15:27:28.277Z",
+                "time": "05:31:08",
+                "id": "898",
+                "notes": "Employee travel that entire.",
+                "garage": {
+                  "name": "Greer, Parks and Kim",
+                  "id": "460"
+                },
+                "services": [
+                  {
+                    "name": "Oil Change",
+                    "id": "1"
+                  },
+                  {
+                    "name": "Tire Rotation",
+                    "id": "2"
+                  }
+                ],
+                "status": "scheduled",
+                "vehicles": [
+                  {
+                    "make": "Honda",
+                    "model": "Camry",
+                    "year": "2010",
+                    "licensePlate":"UAW 445Z"
+                  }
+                ]
+            }
+        ]
+    },
+    {    
+        "name": "Walusimbi's Garage",
+        "createdAt": "2021-08-16T15:27:28.277Z",
+        "status": "suspended",
+        "district": "Kampala",
+        "address": "1234 Main St",
+        "logo": "https://via.placeholder.com/150",
+        "contactPerson": {
+            "name": "walusimbi",
+            "email": "walusimbi@gmail.com",
+            "phone": "0777777777",
+            "gender": "male",
+            "salutation": "mr",
+            "role": "operations manager"
+        },
+        "averageRating": 2,
+        "totalReviews": 2,
+        "servicesOffered": [
+            { 
+                "name":"Oil Change",
+                "price": 100000,
+                "description": "Oil Change",
+                "currency": "UGX",
+                "id": "1"
+            },
+            { 
+                "name": "Tire Rotation",
+                "price": 100000,
+                "description": "Tire Rotation",
+                "currency": "UGX",
+                "id": "2"
+            },
+            {
+                "name": "Tire Replacement",
+                "price": 100000,
+                "description": "Tire Replacement",
+                "currency": "UGX",
+                "id": "3"
+            },
+            {
+                "name": "Brake Replacement",
+                "price": 100000,
+                "description": "Brake Replacement",
+                "currency": "UGX",
+                "id": "4"
+            },
+            {
+                "name": "Brake Repair",
+                "price": 100000,
+                "description": "Brake Repair",
+                "currency": "UGX",
+                "id": "5"
+            },
+            {
+                "name": "Engine Repair",
+                "price": 100000,
+                "description": "Engine Repair",
+                "currency": "UGX",
+                "id": "6"
+            },
+            {
+                "name": "Engine Replacement",
+                "price": 100000,
+                "description": "Engine Replacement",
+                "currency": "UGX",
+                "id": "7"
+            },
+            {
+                "name": "Transmission Repair",
+                "price": 100000,
+                "description": "Transmission Repair",
+                "currency": "UGX",
+                "id": "8"
+            },
+            { 
+                "name": "Transmission Replacement",
+                "price": 100000,
+                "description": "Transmission Replacement",
+                "currency": "UGX",
+                "id": "9"
+            }
+            
+        ],
+        "appointments": [
+            {
+                "date": "2023-08-16T15:27:28.277Z",
+                "time": "05:31:08",
+                "id": "898",
+                "notes": "Employee travel that entire.",
+                "garage": {
+                  "name": "Greer, Parks and Kim",
+                  "id": "460"
+                },
+                "services": [
+                  {
+                    "name": "Oil Change",
+                    "id": "1"
+                  },
+                  {
+                    "name": "Tire Rotation",
+                    "id": "2"
+                  }
+                ],
+                "status": "scheduled",
+                "vehicles": [
+                  {
+                    "make": "Honda",
+                    "model": "Camry",
+                    "year": "2010",
+                    "licensePlate": "UAX 123A"
+                  }
+                ],
+                "rating": {
+                    "value": 3,
+                    "createdAt": "2023-08-16T15:27:28.277Z",
+                    "status": "pending",
+                    "comment": "Excellent service! My car was fixed quickly and the staff was very friendly."
+                }
+            },
+            {
+                "date": "2023-08-16T15:27:28.277Z",
+                "time": "05:31:08",
+                "id": "898",
+                "notes": "Employee travel that entire.",
+                "garage": {
+                  "name": "Greer, Parks and Kim",
+                  "id": "460"
+                },
+                "services": [
+                  {
+                    "name": "Oil Change",
+                    "id": "1"
+                  },
+                  {
+                    "name": "Tire Rotation",
+                    "id": "2"
+                  }
+                ],
+                "status": "scheduled",
+                "vehicles": [
+                  {
+                    "make": "Honda",
+                    "model": "Camry",
+                    "year": "2010",
+                    "licensePlate":"UAW 445Z"
+                  }
+                ]
+            }
+        ]
+    },
+    {    
+        "name": "Walusimbi's Garage",
+        "createdAt": "2021-08-16T15:27:28.277Z",
+        "status": "suspended",
+        "district": "Kampala",
+        "address": "1234 Main St",
+        "logo": "https://via.placeholder.com/150",
+        "contactPerson": {
+            "name": "walusimbi",
+            "email": "walusimbi@gmail.com",
+            "phone": "0777777777",
+            "gender": "male",
+            "salutation": "mr",
+            "role": "operations manager"
+        },
+        "averageRating": 2,
+        "totalReviews": 2,
+        "servicesOffered": [
+            { 
+                "name":"Oil Change",
+                "price": 100000,
+                "description": "Oil Change",
+                "currency": "UGX",
+                "id": "1"
+            },
+            { 
+                "name": "Tire Rotation",
+                "price": 100000,
+                "description": "Tire Rotation",
+                "currency": "UGX",
+                "id": "2"
+            },
+            {
+                "name": "Tire Replacement",
+                "price": 100000,
+                "description": "Tire Replacement",
+                "currency": "UGX",
+                "id": "3"
+            },
+            {
+                "name": "Brake Replacement",
+                "price": 100000,
+                "description": "Brake Replacement",
+                "currency": "UGX",
+                "id": "4"
+            },
+            {
+                "name": "Brake Repair",
+                "price": 100000,
+                "description": "Brake Repair",
+                "currency": "UGX",
+                "id": "5"
+            },
+            {
+                "name": "Engine Repair",
+                "price": 100000,
+                "description": "Engine Repair",
+                "currency": "UGX",
+                "id": "6"
+            },
+            {
+                "name": "Engine Replacement",
+                "price": 100000,
+                "description": "Engine Replacement",
+                "currency": "UGX",
+                "id": "7"
+            },
+            {
+                "name": "Transmission Repair",
+                "price": 100000,
+                "description": "Transmission Repair",
+                "currency": "UGX",
+                "id": "8"
+            },
+            { 
+                "name": "Transmission Replacement",
+                "price": 100000,
+                "description": "Transmission Replacement",
+                "currency": "UGX",
+                "id": "9"
+            }
+            
+        ],
+        "appointments": [
+            {
+                "date": "2023-08-16T15:27:28.277Z",
+                "time": "05:31:08",
+                "id": "898",
+                "notes": "Employee travel that entire.",
+                "garage": {
+                  "name": "Greer, Parks and Kim",
+                  "id": "460"
+                },
+                "services": [
+                  {
+                    "name": "Oil Change",
+                    "id": "1"
+                  },
+                  {
+                    "name": "Tire Rotation",
+                    "id": "2"
+                  }
+                ],
+                "status": "scheduled",
+                "vehicles": [
+                  {
+                    "make": "Honda",
+                    "model": "Camry",
+                    "year": "2010",
+                    "licensePlate": "UAX 123A"
+                  }
+                ],
+                "rating": {
+                    "value": 3,
+                    "createdAt": "2023-08-16T15:27:28.277Z",
+                    "status": "pending",
+                    "comment": "Excellent service! My car was fixed quickly and the staff was very friendly."
+                }
+            },
+            {
+                "date": "2023-08-16T15:27:28.277Z",
+                "time": "05:31:08",
+                "id": "898",
+                "notes": "Employee travel that entire.",
+                "garage": {
+                  "name": "Greer, Parks and Kim",
+                  "id": "460"
+                },
+                "services": [
+                  {
+                    "name": "Oil Change",
+                    "id": "1"
+                  },
+                  {
+                    "name": "Tire Rotation",
+                    "id": "2"
+                  }
+                ],
+                "status": "scheduled",
+                "vehicles": [
+                  {
+                    "make": "Honda",
+                    "model": "Camry",
+                    "year": "2010",
+                    "licensePlate":"UAW 445Z"
+                  }
+                ]
+            }
+        ]
+    },
+    {    
+        "name": "Walusimbi's Garage",
+        "createdAt": "2021-08-16T15:27:28.277Z",
+        "status": "suspended",
+        "district": "Kampala",
+        "address": "1234 Main St",
+        "logo": "https://via.placeholder.com/150",
+        "contactPerson": {
+            "name": "walusimbi",
+            "email": "walusimbi@gmail.com",
+            "phone": "0777777777",
+            "gender": "male",
+            "salutation": "mr",
+            "role": "operations manager"
+        },
+        "averageRating": 2,
+        "totalReviews": 2,
+        "servicesOffered": [
+            { 
+                "name":"Oil Change",
+                "price": 100000,
+                "description": "Oil Change",
+                "currency": "UGX",
+                "id": "1"
+            },
+            { 
+                "name": "Tire Rotation",
+                "price": 100000,
+                "description": "Tire Rotation",
+                "currency": "UGX",
+                "id": "2"
+            },
+            {
+                "name": "Tire Replacement",
+                "price": 100000,
+                "description": "Tire Replacement",
+                "currency": "UGX",
+                "id": "3"
+            },
+            {
+                "name": "Brake Replacement",
+                "price": 100000,
+                "description": "Brake Replacement",
+                "currency": "UGX",
+                "id": "4"
+            },
+            {
+                "name": "Brake Repair",
+                "price": 100000,
+                "description": "Brake Repair",
+                "currency": "UGX",
+                "id": "5"
+            },
+            {
+                "name": "Engine Repair",
+                "price": 100000,
+                "description": "Engine Repair",
+                "currency": "UGX",
+                "id": "6"
+            },
+            {
+                "name": "Engine Replacement",
+                "price": 100000,
+                "description": "Engine Replacement",
+                "currency": "UGX",
+                "id": "7"
+            },
+            {
+                "name": "Transmission Repair",
+                "price": 100000,
+                "description": "Transmission Repair",
+                "currency": "UGX",
+                "id": "8"
+            },
+            { 
+                "name": "Transmission Replacement",
+                "price": 100000,
+                "description": "Transmission Replacement",
+                "currency": "UGX",
+                "id": "9"
+            }
+            
+        ],
+        "appointments": [
+            {
+                "date": "2023-08-16T15:27:28.277Z",
+                "time": "05:31:08",
+                "id": "898",
+                "notes": "Employee travel that entire.",
+                "garage": {
+                  "name": "Greer, Parks and Kim",
+                  "id": "460"
+                },
+                "services": [
+                  {
+                    "name": "Oil Change",
+                    "id": "1"
+                  },
+                  {
+                    "name": "Tire Rotation",
+                    "id": "2"
+                  }
+                ],
+                "status": "scheduled",
+                "vehicles": [
+                  {
+                    "make": "Honda",
+                    "model": "Camry",
+                    "year": "2010",
+                    "licensePlate": "UAX 123A"
+                  }
+                ],
+                "rating": {
+                    "value": 3,
+                    "createdAt": "2023-08-16T15:27:28.277Z",
+                    "status": "pending",
+                    "comment": "Excellent service! My car was fixed quickly and the staff was very friendly."
+                }
+            },
+            {
+                "date": "2023-08-16T15:27:28.277Z",
+                "time": "05:31:08",
+                "id": "898",
+                "notes": "Employee travel that entire.",
+                "garage": {
+                  "name": "Greer, Parks and Kim",
+                  "id": "460"
+                },
+                "services": [
+                  {
+                    "name": "Oil Change",
+                    "id": "1"
+                  },
+                  {
+                    "name": "Tire Rotation",
+                    "id": "2"
+                  }
+                ],
+                "status": "scheduled",
+                "vehicles": [
+                  {
+                    "make": "Honda",
+                    "model": "Camry",
+                    "year": "2010",
+                    "licensePlate":"UAW 445Z"
+                  }
+                ]
+            }
+        ]
+    },
+    {    
+        "name": "Walusimbi's Garage",
+        "createdAt": "2021-08-16T15:27:28.277Z",
+        "status": "suspended",
+        "district": "Kampala",
+        "address": "1234 Main St",
+        "logo": "https://via.placeholder.com/150",
+        "contactPerson": {
+            "name": "walusimbi",
+            "email": "walusimbi@gmail.com",
+            "phone": "0777777777",
+            "gender": "male",
+            "salutation": "mr",
+            "role": "operations manager"
+        },
+        "averageRating": 2,
+        "totalReviews": 2,
+        "servicesOffered": [
+            { 
+                "name":"Oil Change",
+                "price": 100000,
+                "description": "Oil Change",
+                "currency": "UGX",
+                "id": "1"
+            },
+            { 
+                "name": "Tire Rotation",
+                "price": 100000,
+                "description": "Tire Rotation",
+                "currency": "UGX",
+                "id": "2"
+            },
+            {
+                "name": "Tire Replacement",
+                "price": 100000,
+                "description": "Tire Replacement",
+                "currency": "UGX",
+                "id": "3"
+            },
+            {
+                "name": "Brake Replacement",
+                "price": 100000,
+                "description": "Brake Replacement",
+                "currency": "UGX",
+                "id": "4"
+            },
+            {
+                "name": "Brake Repair",
+                "price": 100000,
+                "description": "Brake Repair",
+                "currency": "UGX",
+                "id": "5"
+            },
+            {
+                "name": "Engine Repair",
+                "price": 100000,
+                "description": "Engine Repair",
+                "currency": "UGX",
+                "id": "6"
+            },
+            {
+                "name": "Engine Replacement",
+                "price": 100000,
+                "description": "Engine Replacement",
+                "currency": "UGX",
+                "id": "7"
+            },
+            {
+                "name": "Transmission Repair",
+                "price": 100000,
+                "description": "Transmission Repair",
+                "currency": "UGX",
+                "id": "8"
+            },
+            { 
+                "name": "Transmission Replacement",
+                "price": 100000,
+                "description": "Transmission Replacement",
+                "currency": "UGX",
+                "id": "9"
+            }
+            
+        ],
+        "appointments": [
+            {
+                "date": "2023-08-16T15:27:28.277Z",
+                "time": "05:31:08",
+                "id": "898",
+                "notes": "Employee travel that entire.",
+                "garage": {
+                  "name": "Greer, Parks and Kim",
+                  "id": "460"
+                },
+                "services": [
+                  {
+                    "name": "Oil Change",
+                    "id": "1"
+                  },
+                  {
+                    "name": "Tire Rotation",
+                    "id": "2"
+                  }
+                ],
+                "status": "scheduled",
+                "vehicles": [
+                  {
+                    "make": "Honda",
+                    "model": "Camry",
+                    "year": "2010",
+                    "licensePlate": "UAX 123A"
+                  }
+                ],
+                "rating": {
+                    "value": 3,
+                    "createdAt": "2023-08-16T15:27:28.277Z",
+                    "status": "pending",
+                    "comment": "Excellent service! My car was fixed quickly and the staff was very friendly."
+                }
+            },
+            {
+                "date": "2023-08-16T15:27:28.277Z",
+                "time": "05:31:08",
+                "id": "898",
+                "notes": "Employee travel that entire.",
+                "garage": {
+                  "name": "Greer, Parks and Kim",
+                  "id": "460"
+                },
+                "services": [
+                  {
+                    "name": "Oil Change",
+                    "id": "1"
+                  },
+                  {
+                    "name": "Tire Rotation",
+                    "id": "2"
+                  }
+                ],
+                "status": "scheduled",
+                "vehicles": [
+                  {
+                    "make": "Honda",
+                    "model": "Camry",
+                    "year": "2010",
+                    "licensePlate":"UAW 445Z"
+                  }
+                ]
+            }
+        ]
+    },
+    {    
+        "name": "Walusimbi's Garage",
+        "createdAt": "2021-08-16T15:27:28.277Z",
+        "status": "suspended",
+        "district": "Kampala",
+        "address": "1234 Main St",
+        "logo": "https://via.placeholder.com/150",
+        "contactPerson": {
+            "name": "walusimbi",
+            "email": "walusimbi@gmail.com",
+            "phone": "0777777777",
+            "gender": "male",
+            "salutation": "mr",
+            "role": "operations manager"
+        },
+        "averageRating": 2,
+        "totalReviews": 2,
+        "servicesOffered": [
+            { 
+                "name":"Oil Change",
+                "price": 100000,
+                "description": "Oil Change",
+                "currency": "UGX",
+                "id": "1"
+            },
+            { 
+                "name": "Tire Rotation",
+                "price": 100000,
+                "description": "Tire Rotation",
+                "currency": "UGX",
+                "id": "2"
+            },
+            {
+                "name": "Tire Replacement",
+                "price": 100000,
+                "description": "Tire Replacement",
+                "currency": "UGX",
+                "id": "3"
+            },
+            {
+                "name": "Brake Replacement",
+                "price": 100000,
+                "description": "Brake Replacement",
+                "currency": "UGX",
+                "id": "4"
+            },
+            {
+                "name": "Brake Repair",
+                "price": 100000,
+                "description": "Brake Repair",
+                "currency": "UGX",
+                "id": "5"
+            },
+            {
+                "name": "Engine Repair",
+                "price": 100000,
+                "description": "Engine Repair",
+                "currency": "UGX",
+                "id": "6"
+            },
+            {
+                "name": "Engine Replacement",
+                "price": 100000,
+                "description": "Engine Replacement",
+                "currency": "UGX",
+                "id": "7"
+            },
+            {
+                "name": "Transmission Repair",
+                "price": 100000,
+                "description": "Transmission Repair",
+                "currency": "UGX",
+                "id": "8"
+            },
+            { 
+                "name": "Transmission Replacement",
+                "price": 100000,
+                "description": "Transmission Replacement",
+                "currency": "UGX",
+                "id": "9"
+            }
+            
+        ],
+        "appointments": [
+            {
+                "date": "2023-08-16T15:27:28.277Z",
+                "time": "05:31:08",
+                "id": "898",
+                "notes": "Employee travel that entire.",
+                "garage": {
+                  "name": "Greer, Parks and Kim",
+                  "id": "460"
+                },
+                "services": [
+                  {
+                    "name": "Oil Change",
+                    "id": "1"
+                  },
+                  {
+                    "name": "Tire Rotation",
+                    "id": "2"
+                  }
+                ],
+                "status": "scheduled",
+                "vehicles": [
+                  {
+                    "make": "Honda",
+                    "model": "Camry",
+                    "year": "2010",
+                    "licensePlate": "UAX 123A"
+                  }
+                ],
+                "rating": {
+                    "value": 3,
+                    "createdAt": "2023-08-16T15:27:28.277Z",
+                    "status": "pending",
+                    "comment": "Excellent service! My car was fixed quickly and the staff was very friendly."
+                }
+            },
+            {
+                "date": "2023-08-16T15:27:28.277Z",
+                "time": "05:31:08",
+                "id": "898",
+                "notes": "Employee travel that entire.",
+                "garage": {
+                  "name": "Greer, Parks and Kim",
+                  "id": "460"
+                },
+                "services": [
+                  {
+                    "name": "Oil Change",
+                    "id": "1"
+                  },
+                  {
+                    "name": "Tire Rotation",
+                    "id": "2"
+                  }
+                ],
+                "status": "scheduled",
+                "vehicles": [
+                  {
+                    "make": "Honda",
+                    "model": "Camry",
+                    "year": "2010",
+                    "licensePlate":"UAW 445Z"
+                  }
+                ]
+            }
+        ]
+    },
+    {    
+        "name": "Walusimbi's Garage",
+        "createdAt": "2021-08-16T15:27:28.277Z",
+        "status": "suspended",
+        "district": "Kampala",
+        "address": "1234 Main St",
+        "logo": "https://via.placeholder.com/150",
+        "contactPerson": {
+            "name": "walusimbi",
+            "email": "walusimbi@gmail.com",
+            "phone": "0777777777",
+            "gender": "male",
+            "salutation": "mr",
+            "role": "operations manager"
+        },
+        "averageRating": 2,
+        "totalReviews": 2,
+        "servicesOffered": [
+            { 
+                "name":"Oil Change",
+                "price": 100000,
+                "description": "Oil Change",
+                "currency": "UGX",
+                "id": "1"
+            },
+            { 
+                "name": "Tire Rotation",
+                "price": 100000,
+                "description": "Tire Rotation",
+                "currency": "UGX",
+                "id": "2"
+            },
+            {
+                "name": "Tire Replacement",
+                "price": 100000,
+                "description": "Tire Replacement",
+                "currency": "UGX",
+                "id": "3"
+            },
+            {
+                "name": "Brake Replacement",
+                "price": 100000,
+                "description": "Brake Replacement",
+                "currency": "UGX",
+                "id": "4"
+            },
+            {
+                "name": "Brake Repair",
+                "price": 100000,
+                "description": "Brake Repair",
+                "currency": "UGX",
+                "id": "5"
+            },
+            {
+                "name": "Engine Repair",
+                "price": 100000,
+                "description": "Engine Repair",
+                "currency": "UGX",
+                "id": "6"
+            },
+            {
+                "name": "Engine Replacement",
+                "price": 100000,
+                "description": "Engine Replacement",
+                "currency": "UGX",
+                "id": "7"
+            },
+            {
+                "name": "Transmission Repair",
+                "price": 100000,
+                "description": "Transmission Repair",
+                "currency": "UGX",
+                "id": "8"
+            },
+            { 
+                "name": "Transmission Replacement",
+                "price": 100000,
+                "description": "Transmission Replacement",
+                "currency": "UGX",
+                "id": "9"
+            }
+            
+        ],
+        "appointments": [
+            {
+                "date": "2023-08-16T15:27:28.277Z",
+                "time": "05:31:08",
+                "id": "898",
+                "notes": "Employee travel that entire.",
+                "garage": {
+                  "name": "Greer, Parks and Kim",
+                  "id": "460"
+                },
+                "services": [
+                  {
+                    "name": "Oil Change",
+                    "id": "1"
+                  },
+                  {
+                    "name": "Tire Rotation",
+                    "id": "2"
+                  }
+                ],
+                "status": "scheduled",
+                "vehicles": [
+                  {
+                    "make": "Honda",
+                    "model": "Camry",
+                    "year": "2010",
+                    "licensePlate": "UAX 123A"
+                  }
+                ],
+                "rating": {
+                    "value": 3,
+                    "createdAt": "2023-08-16T15:27:28.277Z",
+                    "status": "pending",
+                    "comment": "Excellent service! My car was fixed quickly and the staff was very friendly."
+                }
+            },
+            {
+                "date": "2023-08-16T15:27:28.277Z",
+                "time": "05:31:08",
+                "id": "898",
+                "notes": "Employee travel that entire.",
+                "garage": {
+                  "name": "Greer, Parks and Kim",
+                  "id": "460"
+                },
+                "services": [
+                  {
+                    "name": "Oil Change",
+                    "id": "1"
+                  },
+                  {
+                    "name": "Tire Rotation",
+                    "id": "2"
+                  }
+                ],
+                "status": "scheduled",
+                "vehicles": [
+                  {
+                    "make": "Honda",
+                    "model": "Camry",
+                    "year": "2010",
+                    "licensePlate":"UAW 445Z"
+                  }
+                ]
+            }
+        ]
+    },
+    {    
+        "name": "Walusimbi's Garage",
+        "createdAt": "2021-08-16T15:27:28.277Z",
+        "status": "suspended",
+        "district": "Kampala",
+        "address": "1234 Main St",
+        "logo": "https://via.placeholder.com/150",
+        "contactPerson": {
+            "name": "walusimbi",
+            "email": "walusimbi@gmail.com",
+            "phone": "0777777777",
+            "gender": "male",
+            "salutation": "mr",
+            "role": "operations manager"
+        },
+        "averageRating": 2,
+        "totalReviews": 2,
+        "servicesOffered": [
+            { 
+                "name":"Oil Change",
+                "price": 100000,
+                "description": "Oil Change",
+                "currency": "UGX",
+                "id": "1"
+            },
+            { 
+                "name": "Tire Rotation",
+                "price": 100000,
+                "description": "Tire Rotation",
+                "currency": "UGX",
+                "id": "2"
+            },
+            {
+                "name": "Tire Replacement",
+                "price": 100000,
+                "description": "Tire Replacement",
+                "currency": "UGX",
+                "id": "3"
+            },
+            {
+                "name": "Brake Replacement",
+                "price": 100000,
+                "description": "Brake Replacement",
+                "currency": "UGX",
+                "id": "4"
+            },
+            {
+                "name": "Brake Repair",
+                "price": 100000,
+                "description": "Brake Repair",
+                "currency": "UGX",
+                "id": "5"
+            },
+            {
+                "name": "Engine Repair",
+                "price": 100000,
+                "description": "Engine Repair",
+                "currency": "UGX",
+                "id": "6"
+            },
+            {
+                "name": "Engine Replacement",
+                "price": 100000,
+                "description": "Engine Replacement",
+                "currency": "UGX",
+                "id": "7"
+            },
+            {
+                "name": "Transmission Repair",
+                "price": 100000,
+                "description": "Transmission Repair",
+                "currency": "UGX",
+                "id": "8"
+            },
+            { 
+                "name": "Transmission Replacement",
+                "price": 100000,
+                "description": "Transmission Replacement",
+                "currency": "UGX",
+                "id": "9"
+            }
+            
+        ],
+        "appointments": [
+            {
+                "date": "2023-08-16T15:27:28.277Z",
+                "time": "05:31:08",
+                "id": "898",
+                "notes": "Employee travel that entire.",
+                "garage": {
+                  "name": "Greer, Parks and Kim",
+                  "id": "460"
+                },
+                "services": [
+                  {
+                    "name": "Oil Change",
+                    "id": "1"
+                  },
+                  {
+                    "name": "Tire Rotation",
+                    "id": "2"
+                  }
+                ],
+                "status": "scheduled",
+                "vehicles": [
+                  {
+                    "make": "Honda",
+                    "model": "Camry",
+                    "year": "2010",
+                    "licensePlate": "UAX 123A"
+                  }
+                ],
+                "rating": {
+                    "value": 3,
+                    "createdAt": "2023-08-16T15:27:28.277Z",
+                    "status": "pending",
+                    "comment": "Excellent service! My car was fixed quickly and the staff was very friendly."
+                }
+            },
+            {
+                "date": "2023-08-16T15:27:28.277Z",
+                "time": "05:31:08",
+                "id": "898",
+                "notes": "Employee travel that entire.",
+                "garage": {
+                  "name": "Greer, Parks and Kim",
+                  "id": "460"
+                },
+                "services": [
+                  {
+                    "name": "Oil Change",
+                    "id": "1"
+                  },
+                  {
+                    "name": "Tire Rotation",
+                    "id": "2"
+                  }
+                ],
+                "status": "scheduled",
+                "vehicles": [
+                  {
+                    "make": "Honda",
+                    "model": "Camry",
+                    "year": "2010",
+                    "licensePlate":"UAW 445Z"
+                  }
+                ]
+            }
+        ]
+    },
+    {    
+        "name": "Walusimbi's Garage",
+        "createdAt": "2021-08-16T15:27:28.277Z",
+        "status": "suspended",
+        "district": "Kampala",
+        "address": "1234 Main St",
+        "logo": "https://via.placeholder.com/150",
+        "contactPerson": {
+            "name": "walusimbi",
+            "email": "walusimbi@gmail.com",
+            "phone": "0777777777",
+            "gender": "male",
+            "salutation": "mr",
+            "role": "operations manager"
+        },
+        "averageRating": 2,
+        "totalReviews": 2,
+        "servicesOffered": [
+            { 
+                "name":"Oil Change",
+                "price": 100000,
+                "description": "Oil Change",
+                "currency": "UGX",
+                "id": "1"
+            },
+            { 
+                "name": "Tire Rotation",
+                "price": 100000,
+                "description": "Tire Rotation",
+                "currency": "UGX",
+                "id": "2"
+            },
+            {
+                "name": "Tire Replacement",
+                "price": 100000,
+                "description": "Tire Replacement",
+                "currency": "UGX",
+                "id": "3"
+            },
+            {
+                "name": "Brake Replacement",
+                "price": 100000,
+                "description": "Brake Replacement",
+                "currency": "UGX",
+                "id": "4"
+            },
+            {
+                "name": "Brake Repair",
+                "price": 100000,
+                "description": "Brake Repair",
+                "currency": "UGX",
+                "id": "5"
+            },
+            {
+                "name": "Engine Repair",
+                "price": 100000,
+                "description": "Engine Repair",
+                "currency": "UGX",
+                "id": "6"
+            },
+            {
+                "name": "Engine Replacement",
+                "price": 100000,
+                "description": "Engine Replacement",
+                "currency": "UGX",
+                "id": "7"
+            },
+            {
+                "name": "Transmission Repair",
+                "price": 100000,
+                "description": "Transmission Repair",
+                "currency": "UGX",
+                "id": "8"
+            },
+            { 
+                "name": "Transmission Replacement",
+                "price": 100000,
+                "description": "Transmission Replacement",
+                "currency": "UGX",
+                "id": "9"
+            }
+            
+        ],
+        "appointments": [
+            {
+                "date": "2023-08-16T15:27:28.277Z",
+                "time": "05:31:08",
+                "id": "898",
+                "notes": "Employee travel that entire.",
+                "garage": {
+                  "name": "Greer, Parks and Kim",
+                  "id": "460"
+                },
+                "services": [
+                  {
+                    "name": "Oil Change",
+                    "id": "1"
+                  },
+                  {
+                    "name": "Tire Rotation",
+                    "id": "2"
+                  }
+                ],
+                "status": "scheduled",
+                "vehicles": [
+                  {
+                    "make": "Honda",
+                    "model": "Camry",
+                    "year": "2010",
+                    "licensePlate": "UAX 123A"
+                  }
+                ],
+                "rating": {
+                    "value": 3,
+                    "createdAt": "2023-08-16T15:27:28.277Z",
+                    "status": "pending",
+                    "comment": "Excellent service! My car was fixed quickly and the staff was very friendly."
+                }
+            },
+            {
+                "date": "2023-08-16T15:27:28.277Z",
+                "time": "05:31:08",
+                "id": "898",
+                "notes": "Employee travel that entire.",
+                "garage": {
+                  "name": "Greer, Parks and Kim",
+                  "id": "460"
+                },
+                "services": [
+                  {
+                    "name": "Oil Change",
+                    "id": "1"
+                  },
+                  {
+                    "name": "Tire Rotation",
+                    "id": "2"
+                  }
+                ],
+                "status": "scheduled",
+                "vehicles": [
+                  {
+                    "make": "Honda",
+                    "model": "Camry",
+                    "year": "2010",
+                    "licensePlate":"UAW 445Z"
+                  }
+                ]
+            }
+        ]
+    },
+    {    
+        "name": "Walusimbi's Garage",
+        "createdAt": "2021-08-16T15:27:28.277Z",
+        "status": "suspended",
+        "district": "Kampala",
+        "address": "1234 Main St",
+        "logo": "https://via.placeholder.com/150",
+        "contactPerson": {
+            "name": "walusimbi",
+            "email": "walusimbi@gmail.com",
+            "phone": "0777777777",
+            "gender": "male",
+            "salutation": "mr",
+            "role": "operations manager"
+        },
+        "averageRating": 2,
+        "totalReviews": 2,
+        "servicesOffered": [
+            { 
+                "name":"Oil Change",
+                "price": 100000,
+                "description": "Oil Change",
+                "currency": "UGX",
+                "id": "1"
+            },
+            { 
+                "name": "Tire Rotation",
+                "price": 100000,
+                "description": "Tire Rotation",
+                "currency": "UGX",
+                "id": "2"
+            },
+            {
+                "name": "Tire Replacement",
+                "price": 100000,
+                "description": "Tire Replacement",
+                "currency": "UGX",
+                "id": "3"
+            },
+            {
+                "name": "Brake Replacement",
+                "price": 100000,
+                "description": "Brake Replacement",
+                "currency": "UGX",
+                "id": "4"
+            },
+            {
+                "name": "Brake Repair",
+                "price": 100000,
+                "description": "Brake Repair",
+                "currency": "UGX",
+                "id": "5"
+            },
+            {
+                "name": "Engine Repair",
+                "price": 100000,
+                "description": "Engine Repair",
+                "currency": "UGX",
+                "id": "6"
+            },
+            {
+                "name": "Engine Replacement",
+                "price": 100000,
+                "description": "Engine Replacement",
+                "currency": "UGX",
+                "id": "7"
+            },
+            {
+                "name": "Transmission Repair",
+                "price": 100000,
+                "description": "Transmission Repair",
+                "currency": "UGX",
+                "id": "8"
+            },
+            { 
+                "name": "Transmission Replacement",
+                "price": 100000,
+                "description": "Transmission Replacement",
+                "currency": "UGX",
+                "id": "9"
+            }
+            
+        ],
+        "appointments": [
+            {
+                "date": "2023-08-16T15:27:28.277Z",
+                "time": "05:31:08",
+                "id": "898",
+                "notes": "Employee travel that entire.",
+                "garage": {
+                  "name": "Greer, Parks and Kim",
+                  "id": "460"
+                },
+                "services": [
+                  {
+                    "name": "Oil Change",
+                    "id": "1"
+                  },
+                  {
+                    "name": "Tire Rotation",
+                    "id": "2"
+                  }
+                ],
+                "status": "scheduled",
+                "vehicles": [
+                  {
+                    "make": "Honda",
+                    "model": "Camry",
+                    "year": "2010",
+                    "licensePlate": "UAX 123A"
+                  }
+                ],
+                "rating": {
+                    "value": 3,
+                    "createdAt": "2023-08-16T15:27:28.277Z",
+                    "status": "pending",
+                    "comment": "Excellent service! My car was fixed quickly and the staff was very friendly."
+                }
+            },
+            {
+                "date": "2023-08-16T15:27:28.277Z",
+                "time": "05:31:08",
+                "id": "898",
+                "notes": "Employee travel that entire.",
+                "garage": {
+                  "name": "Greer, Parks and Kim",
+                  "id": "460"
+                },
+                "services": [
+                  {
+                    "name": "Oil Change",
+                    "id": "1"
+                  },
+                  {
+                    "name": "Tire Rotation",
+                    "id": "2"
+                  }
+                ],
+                "status": "scheduled",
+                "vehicles": [
+                  {
+                    "make": "Honda",
+                    "model": "Camry",
+                    "year": "2010",
+                    "licensePlate":"UAW 445Z"
+                  }
+                ]
+            }
+        ]
+    },
+    {    
+        "name": "Walusimbi's Garage",
+        "createdAt": "2021-08-16T15:27:28.277Z",
+        "status": "suspended",
+        "district": "Kampala",
+        "address": "1234 Main St",
+        "logo": "https://via.placeholder.com/150",
+        "contactPerson": {
+            "name": "walusimbi",
+            "email": "walusimbi@gmail.com",
+            "phone": "0777777777",
+            "gender": "male",
+            "salutation": "mr",
+            "role": "operations manager"
+        },
+        "averageRating": 2,
+        "totalReviews": 2,
+        "servicesOffered": [
+            { 
+                "name":"Oil Change",
+                "price": 100000,
+                "description": "Oil Change",
+                "currency": "UGX",
+                "id": "1"
+            },
+            { 
+                "name": "Tire Rotation",
+                "price": 100000,
+                "description": "Tire Rotation",
+                "currency": "UGX",
+                "id": "2"
+            },
+            {
+                "name": "Tire Replacement",
+                "price": 100000,
+                "description": "Tire Replacement",
+                "currency": "UGX",
+                "id": "3"
+            },
+            {
+                "name": "Brake Replacement",
+                "price": 100000,
+                "description": "Brake Replacement",
+                "currency": "UGX",
+                "id": "4"
+            },
+            {
+                "name": "Brake Repair",
+                "price": 100000,
+                "description": "Brake Repair",
+                "currency": "UGX",
+                "id": "5"
+            },
+            {
+                "name": "Engine Repair",
+                "price": 100000,
+                "description": "Engine Repair",
+                "currency": "UGX",
+                "id": "6"
+            },
+            {
+                "name": "Engine Replacement",
+                "price": 100000,
+                "description": "Engine Replacement",
+                "currency": "UGX",
+                "id": "7"
+            },
+            {
+                "name": "Transmission Repair",
+                "price": 100000,
+                "description": "Transmission Repair",
+                "currency": "UGX",
+                "id": "8"
+            },
+            { 
+                "name": "Transmission Replacement",
+                "price": 100000,
+                "description": "Transmission Replacement",
+                "currency": "UGX",
+                "id": "9"
+            }
+            
+        ],
+        "appointments": [
+            {
+                "date": "2023-08-16T15:27:28.277Z",
+                "time": "05:31:08",
+                "id": "898",
+                "notes": "Employee travel that entire.",
+                "garage": {
+                  "name": "Greer, Parks and Kim",
+                  "id": "460"
+                },
+                "services": [
+                  {
+                    "name": "Oil Change",
+                    "id": "1"
+                  },
+                  {
+                    "name": "Tire Rotation",
+                    "id": "2"
+                  }
+                ],
+                "status": "scheduled",
+                "vehicles": [
+                  {
+                    "make": "Honda",
+                    "model": "Camry",
+                    "year": "2010",
+                    "licensePlate": "UAX 123A"
+                  }
+                ],
+                "rating": {
+                    "value": 3,
+                    "createdAt": "2023-08-16T15:27:28.277Z",
+                    "status": "pending",
+                    "comment": "Excellent service! My car was fixed quickly and the staff was very friendly."
+                }
+            },
+            {
+                "date": "2023-08-16T15:27:28.277Z",
+                "time": "05:31:08",
+                "id": "898",
+                "notes": "Employee travel that entire.",
+                "garage": {
+                  "name": "Greer, Parks and Kim",
+                  "id": "460"
+                },
+                "services": [
+                  {
+                    "name": "Oil Change",
+                    "id": "1"
+                  },
+                  {
+                    "name": "Tire Rotation",
+                    "id": "2"
+                  }
+                ],
+                "status": "scheduled",
+                "vehicles": [
+                  {
+                    "make": "Honda",
+                    "model": "Camry",
+                    "year": "2010",
+                    "licensePlate":"UAW 445Z"
+                  }
+                ]
+            }
+        ]
+    },
+    {    
+        "name": "Walusimbi's Garage",
+        "createdAt": "2021-08-16T15:27:28.277Z",
+        "status": "suspended",
+        "district": "Kampala",
+        "address": "1234 Main St",
+        "logo": "https://via.placeholder.com/150",
+        "contactPerson": {
+            "name": "walusimbi",
+            "email": "walusimbi@gmail.com",
+            "phone": "0777777777",
+            "gender": "male",
+            "salutation": "mr",
+            "role": "operations manager"
+        },
+        "carTypes": [
+            {
+                "make": "Toyota",
+                "logoUrl": "https://1000logos.net/wp-content/uploads/2021/04/Toyota-logo-768x432.png"
+            },
+            {
+                "make": "Mercedes",
+                "logoUrl": "https://1000logos.net/wp-content/uploads/2018/04/Mercedes-Benz-Logo.png"
+            },
+            {
+                "make": "BMW",
+                "logoUrl": "https://1000logos.net/wp-content/uploads/2018/02/BMW-Logo.png"
+            },
+            {
+                "make": "Honda",
+                "logoUrl": "https://1000logos.net/wp-content/uploads/2018/03/Honda-logo.png"
+            }
+        ],
+        "averageRating": 2,
+        "totalReviews": 2,
+        "appointments": [
+            {
+                "date": "2023-08-16T15:27:28.277Z",
+                "time": "05:31:08",
+                "id": "898",
+                "notes": "Employee travel that entire.",
+                "garage": {
+                  "name": "Greer, Parks and Kim",
+                  "id": "460"
+                },
+                "services": [
+                  {
+                    "name": "Oil Change",
+                    "id": "1"
+                  },
+                  {
+                    "name": "Tire Rotation",
+                    "id": "2"
+                  }
+                ],
+                "status": "scheduled",
+                "vehicles": [
+                  {
+                    "make": "Honda",
+                    "model": "Camry",
+                    "year": "2010",
+                    "licensePlate": "UAX 123A"
+                  }
+                ],
+                "rating": {
+                    "value": 3,
+                    "createdAt": "2023-08-16T15:27:28.277Z",
+                    "status": "pending",
+                    "comment": "Excellent service! My car was fixed quickly and the staff was very friendly."
+                }
+            },
+            {
+                "date": "2023-08-16T15:27:28.277Z",
+                "time": "05:31:08",
+                "id": "898",
+                "notes": "Employee travel that entire.",
+                "garage": {
+                  "name": "Greer, Parks and Kim",
+                  "id": "460"
+                },
+                "services": [
+                  {
+                    "name": "Oil Change",
+                    "id": "1"
+                  },
+                  {
+                    "name": "Tire Rotation",
+                    "id": "2"
+                  }
+                ],
+                "status": "scheduled",
+                "vehicles": [
+                  {
+                    "make": "Honda",
+                    "model": "Camry",
+                    "year": "2010",
+                    "licensePlate":"UAW 445Z"
+                  }
+                ]
+            }
+        ]
+    },
+    {    
+        "name": "Walusimbi's Garage",
+        "createdAt": "2021-08-16T15:27:28.277Z",
+        "status": "suspended",
+        "district": "Kampala",
+        "address": "1234 Main St",
+        "logo": "https://via.placeholder.com/150",
+        "contactPerson": {
+            "name": "walusimbi",
+            "email": "walusimbi@gmail.com",
+            "phone": "0777777777",
+            "gender": "male",
+            "salutation": "mr",
+            "role": "operations manager"
+        },
+        "averageRating": 2,
+        "appointments": [
+            {
+                "date": "2023-08-16T15:27:28.277Z",
+                "time": "05:31:08",
+                "id": "898",
+                "notes": "Employee travel that entire.",
+                "garage": {
+                  "name": "Greer, Parks and Kim",
+                  "id": "460"
+                },
+                "services": [
+                  {
+                    "name": "Oil Change",
+                    "id": "1"
+                  },
+                  {
+                    "name": "Tire Rotation",
+                    "id": "2"
+                  }
+                ],
+                "status": "scheduled",
+                "vehicles": [
+                  {
+                    "make": "Honda",
+                    "model": "Camry",
+                    "year": "2010",
+                    "licensePlate": "UAX 123A"
+                  }
+                ],
+                "rating": {
+                    "value": 3,
+                    "createdAt": "2023-08-16T15:27:28.277Z",
+                    "status": "pending",
+                    "comment": "Excellent service! My car was fixed quickly and the staff was very friendly."
+                }
+            },
+            {
+                "date": "2023-08-16T15:27:28.277Z",
+                "time": "05:31:08",
+                "id": "898",
+                "notes": "Employee travel that entire.",
+                "garage": {
+                  "name": "Greer, Parks and Kim",
+                  "id": "460"
+                },
+                "services": [
+                  {
+                    "name": "Oil Change",
+                    "id": "1"
+                  },
+                  {
+                    "name": "Tire Rotation",
+                    "id": "2"
+                  }
+                ],
+                "status": "scheduled",
+                "vehicles": [
+                  {
+                    "make": "Honda",
+                    "model": "Camry",
+                    "year": "2010",
+                    "licensePlate":"UAW 445Z"
+                  }
+                ]
+            }
+        ]
+    },
+    {    
+        "name": "Walusimbi's Garage",
+        "createdAt": "2021-08-16T15:27:28.277Z",
+        "status": "suspended",
+        "district": "Kampala",
+        "address": "1234 Main St",
+        "logo": "https://via.placeholder.com/150",
+        "contactPerson": {
+            "name": "walusimbi",
+            "email": "walusimbi@gmail.com",
+            "phone": "0777777777",
+            "gender": "male",
+            "salutation": "mr",
+            "role": "operations manager"
+        },
+        "averageRating": 2,
+        "totalReviews": 2,
+        "appointments": [
+            {
+                "date": "2023-08-16T15:27:28.277Z",
+                "time": "05:31:08",
+                "id": "898",
+                "notes": "Employee travel that entire.",
+                "garage": {
+                  "name": "Greer, Parks and Kim",
+                  "id": "460"
+                },
+                "services": [
+                  {
+                    "name": "Oil Change",
+                    "id": "1"
+                  },
+                  {
+                    "name": "Tire Rotation",
+                    "id": "2"
+                  }
+                ],
+                "status": "scheduled",
+                "vehicles": [
+                  {
+                    "make": "Honda",
+                    "model": "Camry",
+                    "year": "2010",
+                    "licensePlate": "UAX 123A"
+                  }
+                ],
+                "rating": {
+                    "value": 3,
+                    "createdAt": "2023-08-16T15:27:28.277Z",
+                    "status": "pending",
+                    "comment": "Excellent service! My car was fixed quickly and the staff was very friendly."
+                }
+            },
+            {
+                "date": "2023-08-16T15:27:28.277Z",
+                "time": "05:31:08",
+                "id": "898",
+                "notes": "Employee travel that entire.",
+                "garage": {
+                  "name": "Greer, Parks and Kim",
+                  "id": "460"
+                },
+                "services": [
+                  {
+                    "name": "Oil Change",
+                    "id": "1"
+                  },
+                  {
+                    "name": "Tire Rotation",
+                    "id": "2"
+                  }
+                ],
+                "status": "scheduled",
+                "vehicles": [
+                  {
+                    "make": "Honda",
+                    "model": "Camry",
+                    "year": "2010",
+                    "licensePlate":"UAW 445Z"
+                  }
+                ]
+            }
+        ],
+        "carMakes": [
+            "Toyota",
+            "Mecedeze",
+            "Honda",
+            "Nissan",
+            "Subaru",
+            "Mitsubishi",
+            "Volkswagen",
+            "BMW",
+            "Audi",
+            "Ford",
+            "Suzuki",
+            "Mazda",
+            "Hyundai",
+            "Kia",
+            "Chevrolet"
+        ],
+        "servicesOffered": [
+            { 
+                "name":"Oil Change",
+                "price": 100000,
+                "description": "Oil Change",
+                "currency": "UGX",
+                "id": "1"
+            },
+            { 
+                "name": "Tire Rotation",
+                "price": 100000,
+                "description": "Tire Rotation",
+                "currency": "UGX",
+                "id": "2"
+            },
+            {
+                "name": "Tire Replacement",
+                "price": 100000,
+                "description": "Tire Replacement",
+                "currency": "UGX",
+                "id": "3"
+            },
+            {
+                "name": "Brake Replacement",
+                "price": 100000,
+                "description": "Brake Replacement",
+                "currency": "UGX",
+                "id": "4"
+            },
+            {
+                "name": "Brake Repair",
+                "price": 100000,
+                "description": "Brake Repair",
+                "currency": "UGX",
+                "id": "5"
+            },
+            {
+                "name": "Engine Repair",
+                "price": 100000,
+                "description": "Engine Repair",
+                "currency": "UGX",
+                "id": "6"
+            },
+            {
+                "name": "Engine Replacement",
+                "price": 100000,
+                "description": "Engine Replacement",
+                "currency": "UGX",
+                "id": "7"
+            },
+            {
+                "name": "Transmission Repair",
+                "price": 100000,
+                "description": "Transmission Repair",
+                "currency": "UGX",
+                "id": "8"
+            },
+            { 
+                "name": "Transmission Replacement",
+                "price": 100000,
+                "description": "Transmission Replacement",
+                "currency": "UGX",
+                "id": "9"
+            }
+            
+        ]
+    },
+    {    
+        "name": "Walusimbi's Garage",
+        "createdAt": "2021-08-16T15:27:28.277Z",
+        "status": "suspended",
+        "district": "Kampala",
+        "address": "1234 Main St",
+        "logo": "https://via.placeholder.com/150",
+        "contactPerson": {
+            "name": "walusimbi",
+            "email": "walusimbi@gmail.com",
+            "phone": "0777777777",
+            "gender": "male",
+            "salutation": "mr",
+            "role": "operations manager"
+        },
+        "averageRating": 2,
+        "totalReviews": 2,
+        "servicesOffered": [
+            { 
+                "name":"Oil Change",
+                "price": 100000,
+                "description": "Oil Change",
+                "currency": "UGX",
+                "id": "1"
+            },
+            { 
+                "name": "Tire Rotation",
+                "price": 100000,
+                "description": "Tire Rotation",
+                "currency": "UGX",
+                "id": "2"
+            },
+            {
+                "name": "Tire Replacement",
+                "price": 100000,
+                "description": "Tire Replacement",
+                "currency": "UGX",
+                "id": "3"
+            },
+            {
+                "name": "Brake Replacement",
+                "price": 100000,
+                "description": "Brake Replacement",
+                "currency": "UGX",
+                "id": "4"
+            },
+            {
+                "name": "Brake Repair",
+                "price": 100000,
+                "description": "Brake Repair",
+                "currency": "UGX",
+                "id": "5"
+            },
+            {
+                "name": "Engine Repair",
+                "price": 100000,
+                "description": "Engine Repair",
+                "currency": "UGX",
+                "id": "6"
+            },
+            {
+                "name": "Engine Replacement",
+                "price": 100000,
+                "description": "Engine Replacement",
+                "currency": "UGX",
+                "id": "7"
+            },
+            {
+                "name": "Transmission Repair",
+                "price": 100000,
+                "description": "Transmission Repair",
+                "currency": "UGX",
+                "id": "8"
+            },
+            { 
+                "name": "Transmission Replacement",
+                "price": 100000,
+                "description": "Transmission Replacement",
+                "currency": "UGX",
+                "id": "9"
+            }
+            
+        ],
+        "appointments": [
+            {
+                "date": "2023-08-16T15:27:28.277Z",
+                "time": "05:31:08",
+                "id": "898",
+                "notes": "Employee travel that entire.",
+                "garage": {
+                  "name": "Greer, Parks and Kim",
+                  "id": "460"
+                },
+                "services": [
+                  {
+                    "name": "Oil Change",
+                    "id": "1"
+                  },
+                  {
+                    "name": "Tire Rotation",
+                    "id": "2"
+                  }
+                ],
+                "status": "scheduled",
+                "vehicles": [
+                  {
+                    "make": "Honda",
+                    "model": "Camry",
+                    "year": "2010",
+                    "licensePlate": "UAX 123A"
+                  }
+                ],
+                "rating": {
+                    "value": 3,
+                    "createdAt": "2023-08-16T15:27:28.277Z",
+                    "status": "pending",
+                    "comment": "Excellent service! My car was fixed quickly and the staff was very friendly."
+                }
+            },
+            {
+                "date": "2023-08-16T15:27:28.277Z",
+                "time": "05:31:08",
+                "id": "898",
+                "notes": "Employee travel that entire.",
+                "garage": {
+                  "name": "Greer, Parks and Kim",
+                  "id": "460"
+                },
+                "services": [
+                  {
+                    "name": "Oil Change",
+                    "id": "1"
+                  },
+                  {
+                    "name": "Tire Rotation",
+                    "id": "2"
+                  }
+                ],
+                "status": "scheduled",
+                "vehicles": [
+                  {
+                    "make": "Honda",
+                    "model": "Camry",
+                    "year": "2010",
+                    "licensePlate":"UAW 445Z"
+                  }
+                ]
+            }
+        ]
+    },
+    {    
+        "name": "Walusimbi's Garage",
+        "createdAt": "2021-08-16T15:27:28.277Z",
+        "status": "suspended",
+        "district": "Kampala",
+        "address": "1234 Main St",
+        "logo": "https://via.placeholder.com/150",
+        "contactPerson": {
+            "name": "walusimbi",
+            "email": "walusimbi@gmail.com",
+            "phone": "0777777777",
+            "gender": "male",
+            "salutation": "mr",
+            "role": "operations manager"
+        },
+        "averageRating": 2,
+        "totalReviews": 2,
+        "servicesOffered": [
+            { 
+                "name":"Oil Change",
+                "price": 100000,
+                "description": "Oil Change",
+                "currency": "UGX",
+                "id": "1"
+            },
+            { 
+                "name": "Tire Rotation",
+                "price": 100000,
+                "description": "Tire Rotation",
+                "currency": "UGX",
+                "id": "2"
+            },
+            {
+                "name": "Tire Replacement",
+                "price": 100000,
+                "description": "Tire Replacement",
+                "currency": "UGX",
+                "id": "3"
+            },
+            {
+                "name": "Brake Replacement",
+                "price": 100000,
+                "description": "Brake Replacement",
+                "currency": "UGX",
+                "id": "4"
+            },
+            {
+                "name": "Brake Repair",
+                "price": 100000,
+                "description": "Brake Repair",
+                "currency": "UGX",
+                "id": "5"
+            },
+            {
+                "name": "Engine Repair",
+                "price": 100000,
+                "description": "Engine Repair",
+                "currency": "UGX",
+                "id": "6"
+            },
+            {
+                "name": "Engine Replacement",
+                "price": 100000,
+                "description": "Engine Replacement",
+                "currency": "UGX",
+                "id": "7"
+            },
+            {
+                "name": "Transmission Repair",
+                "price": 100000,
+                "description": "Transmission Repair",
+                "currency": "UGX",
+                "id": "8"
+            },
+            { 
+                "name": "Transmission Replacement",
+                "price": 100000,
+                "description": "Transmission Replacement",
+                "currency": "UGX",
+                "id": "9"
+            }
+            
+        ],
+        "appointments": [
+            {
+                "date": "2023-08-16T15:27:28.277Z",
+                "time": "05:31:08",
+                "id": "898",
+                "notes": "Employee travel that entire.",
+                "garage": {
+                  "name": "Greer, Parks and Kim",
+                  "id": "460"
+                },
+                "services": [
+                  {
+                    "name": "Oil Change",
+                    "id": "1"
+                  },
+                  {
+                    "name": "Tire Rotation",
+                    "id": "2"
+                  }
+                ],
+                "status": "scheduled",
+                "vehicles": [
+                  {
+                    "make": "Honda",
+                    "model": "Camry",
+                    "year": "2010",
+                    "licensePlate": "UAX 123A"
+                  }
+                ],
+                "rating": {
+                    "value": 3,
+                    "createdAt": "2023-08-16T15:27:28.277Z",
+                    "status": "pending",
+                    "comment": "Excellent service! My car was fixed quickly and the staff was very friendly."
+                }
+            },
+            {
+                "date": "2023-08-16T15:27:28.277Z",
+                "time": "05:31:08",
+                "id": "898",
+                "notes": "Employee travel that entire.",
+                "garage": {
+                  "name": "Greer, Parks and Kim",
+                  "id": "460"
+                },
+                "services": [
+                  {
+                    "name": "Oil Change",
+                    "id": "1"
+                  },
+                  {
+                    "name": "Tire Rotation",
+                    "id": "2"
+                  }
+                ],
+                "status": "scheduled",
+                "vehicles": [
+                  {
+                    "make": "Honda",
+                    "model": "Camry",
+                    "year": "2010",
+                    "licensePlate":"UAW 445Z"
+                  }
+                ]
+            }
+        ]
+    },
+    {    
+        "name": "Walusimbi's Garage",
+        "createdAt": "2021-08-16T15:27:28.277Z",
+        "status": "suspended",
+        "district": "Kampala",
+        "address": "1234 Main St",
+        "logo": "https://via.placeholder.com/150",
+        "contactPerson": {
+            "name": "walusimbi",
+            "email": "walusimbi@gmail.com",
+            "phone": "0777777777",
+            "gender": "male",
+            "salutation": "mr",
+            "role": "operations manager"
+        },
+        "averageRating": 2,
+        "totalReviews": 2,
+        "servicesOffered": [
+            { 
+                "name":"Oil Change",
+                "price": 100000,
+                "description": "Oil Change",
+                "currency": "UGX",
+                "id": "1"
+            },
+            { 
+                "name": "Tire Rotation",
+                "price": 100000,
+                "description": "Tire Rotation",
+                "currency": "UGX",
+                "id": "2"
+            },
+            {
+                "name": "Tire Replacement",
+                "price": 100000,
+                "description": "Tire Replacement",
+                "currency": "UGX",
+                "id": "3"
+            },
+            {
+                "name": "Brake Replacement",
+                "price": 100000,
+                "description": "Brake Replacement",
+                "currency": "UGX",
+                "id": "4"
+            },
+            {
+                "name": "Brake Repair",
+                "price": 100000,
+                "description": "Brake Repair",
+                "currency": "UGX",
+                "id": "5"
+            },
+            {
+                "name": "Engine Repair",
+                "price": 100000,
+                "description": "Engine Repair",
+                "currency": "UGX",
+                "id": "6"
+            },
+            {
+                "name": "Engine Replacement",
+                "price": 100000,
+                "description": "Engine Replacement",
+                "currency": "UGX",
+                "id": "7"
+            },
+            {
+                "name": "Transmission Repair",
+                "price": 100000,
+                "description": "Transmission Repair",
+                "currency": "UGX",
+                "id": "8"
+            },
+            { 
+                "name": "Transmission Replacement",
+                "price": 100000,
+                "description": "Transmission Replacement",
+                "currency": "UGX",
+                "id": "9"
+            }
+            
+        ],
+        "appointments": [
+            {
+                "date": "2023-08-16T15:27:28.277Z",
+                "time": "05:31:08",
+                "id": "898",
+                "notes": "Employee travel that entire.",
+                "garage": {
+                  "name": "Greer, Parks and Kim",
+                  "id": "460"
+                },
+                "services": [
+                  {
+                    "name": "Oil Change",
+                    "id": "1"
+                  },
+                  {
+                    "name": "Tire Rotation",
+                    "id": "2"
+                  }
+                ],
+                "status": "scheduled",
+                "vehicles": [
+                  {
+                    "make": "Honda",
+                    "model": "Camry",
+                    "year": "2010",
+                    "licensePlate": "UAX 123A"
+                  }
+                ],
+                "rating": {
+                    "value": 3,
+                    "createdAt": "2023-08-16T15:27:28.277Z",
+                    "status": "pending",
+                    "comment": "Excellent service! My car was fixed quickly and the staff was very friendly."
+                }
+            },
+            {
+                "date": "2023-08-16T15:27:28.277Z",
+                "time": "05:31:08",
+                "id": "898",
+                "notes": "Employee travel that entire.",
+                "garage": {
+                  "name": "Greer, Parks and Kim",
+                  "id": "460"
+                },
+                "services": [
+                  {
+                    "name": "Oil Change",
+                    "id": "1"
+                  },
+                  {
+                    "name": "Tire Rotation",
+                    "id": "2"
+                  }
+                ],
+                "status": "scheduled",
+                "vehicles": [
+                  {
+                    "make": "Honda",
+                    "model": "Camry",
+                    "year": "2010",
+                    "licensePlate":"UAW 445Z"
+                  }
+                ]
+            }
+        ]
+    },
+    {    
+        "name": "Walusimbi's Garage",
+        "createdAt": "2021-08-16T15:27:28.277Z",
+        "status": "suspended",
+        "district": "Kampala",
+        "address": "1234 Main St",
+        "logo": "https://via.placeholder.com/150",
+        "contactPerson": {
+            "name": "walusimbi",
+            "email": "walusimbi@gmail.com",
+            "phone": "0777777777",
+            "gender": "male",
+            "salutation": "mr",
+            "role": "operations manager"
+        },
+        "averageRating": 2,
+        "totalReviews": 2,
+        "servicesOffered": [
+            { 
+                "name":"Oil Change",
+                "price": 100000,
+                "description": "Oil Change",
+                "currency": "UGX",
+                "id": "1"
+            },
+            { 
+                "name": "Tire Rotation",
+                "price": 100000,
+                "description": "Tire Rotation",
+                "currency": "UGX",
+                "id": "2"
+            },
+            {
+                "name": "Tire Replacement",
+                "price": 100000,
+                "description": "Tire Replacement",
+                "currency": "UGX",
+                "id": "3"
+            },
+            {
+                "name": "Brake Replacement",
+                "price": 100000,
+                "description": "Brake Replacement",
+                "currency": "UGX",
+                "id": "4"
+            },
+            {
+                "name": "Brake Repair",
+                "price": 100000,
+                "description": "Brake Repair",
+                "currency": "UGX",
+                "id": "5"
+            },
+            {
+                "name": "Engine Repair",
+                "price": 100000,
+                "description": "Engine Repair",
+                "currency": "UGX",
+                "id": "6"
+            },
+            {
+                "name": "Engine Replacement",
+                "price": 100000,
+                "description": "Engine Replacement",
+                "currency": "UGX",
+                "id": "7"
+            },
+            {
+                "name": "Transmission Repair",
+                "price": 100000,
+                "description": "Transmission Repair",
+                "currency": "UGX",
+                "id": "8"
+            },
+            { 
+                "name": "Transmission Replacement",
+                "price": 100000,
+                "description": "Transmission Replacement",
+                "currency": "UGX",
+                "id": "9"
+            }
+            
+        ],
+        "appointments": [
+            {
+                "date": "2023-08-16T15:27:28.277Z",
+                "time": "05:31:08",
+                "id": "898",
+                "notes": "Employee travel that entire.",
+                "garage": {
+                  "name": "Greer, Parks and Kim",
+                  "id": "460"
+                },
+                "services": [
+                  {
+                    "name": "Oil Change",
+                    "id": "1"
+                  },
+                  {
+                    "name": "Tire Rotation",
+                    "id": "2"
+                  }
+                ],
+                "status": "scheduled",
+                "vehicles": [
+                  {
+                    "make": "Honda",
+                    "model": "Camry",
+                    "year": "2010",
+                    "licensePlate": "UAX 123A"
+                  }
+                ],
+                "rating": {
+                    "value": 3,
+                    "createdAt": "2023-08-16T15:27:28.277Z",
+                    "status": "pending",
+                    "comment": "Excellent service! My car was fixed quickly and the staff was very friendly."
+                }
+            },
+            {
+                "date": "2023-08-16T15:27:28.277Z",
+                "time": "05:31:08",
+                "id": "898",
+                "notes": "Employee travel that entire.",
+                "garage": {
+                  "name": "Greer, Parks and Kim",
+                  "id": "460"
+                },
+                "services": [
+                  {
+                    "name": "Oil Change",
+                    "id": "1"
+                  },
+                  {
+                    "name": "Tire Rotation",
+                    "id": "2"
+                  }
+                ],
+                "status": "scheduled",
+                "vehicles": [
+                  {
+                    "make": "Honda",
+                    "model": "Camry",
+                    "year": "2010",
+                    "licensePlate":"UAW 445Z"
+                  }
+                ]
+            }
+        ]
+    },
+    {    
+        "name": "Walusimbi's Garage",
+        "createdAt": "2021-08-16T15:27:28.277Z",
+        "status": "suspended",
+        "district": "Kampala",
+        "address": "1234 Main St",
+        "logo": "https://via.placeholder.com/150",
+        "contactPerson": {
+            "name": "walusimbi",
+            "email": "walusimbi@gmail.com",
+            "phone": "0777777777",
+            "gender": "male",
+            "salutation": "mr",
+            "role": "operations manager"
+        },
+        "averageRating": 2,
+        "totalReviews": 2,
+        "servicesOffered": [
+            { 
+                "name":"Oil Change",
+                "price": 100000,
+                "description": "Oil Change",
+                "currency": "UGX",
+                "id": "1"
+            },
+            { 
+                "name": "Tire Rotation",
+                "price": 100000,
+                "description": "Tire Rotation",
+                "currency": "UGX",
+                "id": "2"
+            },
+            {
+                "name": "Tire Replacement",
+                "price": 100000,
+                "description": "Tire Replacement",
+                "currency": "UGX",
+                "id": "3"
+            },
+            {
+                "name": "Brake Replacement",
+                "price": 100000,
+                "description": "Brake Replacement",
+                "currency": "UGX",
+                "id": "4"
+            },
+            {
+                "name": "Brake Repair",
+                "price": 100000,
+                "description": "Brake Repair",
+                "currency": "UGX",
+                "id": "5"
+            },
+            {
+                "name": "Engine Repair",
+                "price": 100000,
+                "description": "Engine Repair",
+                "currency": "UGX",
+                "id": "6"
+            },
+            {
+                "name": "Engine Replacement",
+                "price": 100000,
+                "description": "Engine Replacement",
+                "currency": "UGX",
+                "id": "7"
+            },
+            {
+                "name": "Transmission Repair",
+                "price": 100000,
+                "description": "Transmission Repair",
+                "currency": "UGX",
+                "id": "8"
+            },
+            { 
+                "name": "Transmission Replacement",
+                "price": 100000,
+                "description": "Transmission Replacement",
+                "currency": "UGX",
+                "id": "9"
+            }
+            
+        ],
+        "appointments": [
+            {
+                "date": "2023-08-16T15:27:28.277Z",
+                "time": "05:31:08",
+                "id": "898",
+                "notes": "Employee travel that entire.",
+                "garage": {
+                  "name": "Greer, Parks and Kim",
+                  "id": "460"
+                },
+                "services": [
+                  {
+                    "name": "Oil Change",
+                    "id": "1"
+                  },
+                  {
+                    "name": "Tire Rotation",
+                    "id": "2"
+                  }
+                ],
+                "status": "scheduled",
+                "vehicles": [
+                  {
+                    "make": "Honda",
+                    "model": "Camry",
+                    "year": "2010",
+                    "licensePlate": "UAX 123A"
+                  }
+                ],
+                "rating": {
+                    "value": 3,
+                    "createdAt": "2023-08-16T15:27:28.277Z",
+                    "status": "pending",
+                    "comment": "Excellent service! My car was fixed quickly and the staff was very friendly."
+                }
+            },
+            {
+                "date": "2023-08-16T15:27:28.277Z",
+                "time": "05:31:08",
+                "id": "898",
+                "notes": "Employee travel that entire.",
+                "garage": {
+                  "name": "Greer, Parks and Kim",
+                  "id": "460"
+                },
+                "services": [
+                  {
+                    "name": "Oil Change",
+                    "id": "1"
+                  },
+                  {
+                    "name": "Tire Rotation",
+                    "id": "2"
+                  }
+                ],
+                "status": "scheduled",
+                "vehicles": [
+                  {
+                    "make": "Honda",
+                    "model": "Camry",
+                    "year": "2010",
+                    "licensePlate":"UAW 445Z"
+                  }
+                ]
+            }
+        ]
+    }
+]
