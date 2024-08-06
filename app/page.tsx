@@ -26,155 +26,83 @@ import Testimonial from "@/components/Testimonial";
 // import "intro.js/introjs.css";
 
 export default function Home() {
-  const [isOpen, setIsOpen] = useState<boolean>(false);
-  const [stepsEnabled, setStepsEnabled] = useState<boolean>(true);
-  const [takeTour, setTakeTour] = useState<boolean>(false);
-  const router = useRouter();
+	const [isOpen, setIsOpen] = useState<boolean>(false);
+	const [stepsEnabled, setStepsEnabled] = useState<boolean>(true);
+	const [takeTour, setTakeTour] = useState<boolean>(false);
+	const router = useRouter();
 
-  const serviceSectionRef = useRef<HTMLElement | null>(null);
-  const contactSectionRef = useRef<HTMLElement | null>(null);
-  const aboutSectionRef = useRef<HTMLElement | null>(null);
+	const serviceSectionRef = useRef<HTMLElement | null>(null);
+	const contactSectionRef = useRef<HTMLElement | null>(null);
+	const aboutSectionRef = useRef<HTMLElement | null>(null);
 
-  const [transition, setTransition] = useState("slide_r");
-  function changeTransition(transition: string) {
-    setTransition(transition);
-  }
+	const [transition, setTransition] = useState("slide_r");
+	function changeTransition(transition: string) {
+		setTransition(transition);
+	}
 
-  const testimonials: TestimonialData[] = [
-    {
-      name: "Milly Khainza",
-      role: "ED, Send A Girl!",
-      testimonial:
-        "AUTOFORE has truly transformed my car ownership experience. It's convenient, cost-effective, and provides top-notch service. I highly recommend it to all car owners!",
-      image: "avatar",
-    },
-  ];
+	const testimonials: TestimonialData[] = [
+		{
+			name: "Milly Khainza",
+			role: "ED, Send A Girl!",
+			testimonial:
+				"AUTOFORE has truly transformed my car ownership experience. It's convenient, cost-effective, and provides top-notch service. I highly recommend it to all car owners!",
+			image: "avatar",
+		},
+	];
 
-  const scrollToSection = (ref: any) => {
-    if (ref.current) {
-      (ref.current as HTMLElement).scrollIntoView({
-        behavior: "smooth",
-        block: "start",
-      });
-    }
-  };
-  const checkUser = async () => {
-    try {
-      const session = await AuthenticationService.getSession();
-      if (session) {
-        const isUserAdmin: boolean = await AuthorizationService.checkIsAdmin();
-        const isUserCustomer: boolean =
-          await AuthorizationService.checkIsCustomer();
+	const scrollToSection = (ref: any) => {
+		if (ref.current) {
+			(ref.current as HTMLElement).scrollIntoView({
+				behavior: "smooth",
+				block: "start",
+			});
+		}
+	};
+	const checkUser = async () => {
+		try {
+			const session = await AuthenticationService.getSession();
+			if (session) {
+				const isUserAdmin: boolean =
+					await AuthorizationService.checkIsAdmin();
+				const isUserCustomer: boolean =
+					await AuthorizationService.checkIsCustomer();
 
-        if (isUserAdmin) {
-          router.push("/admin/dashboard");
-        } else if (isUserCustomer) {
-          router.push("/customer/dashboard");
-        }
-      }
-    } catch (error: any) {
-      console.log("Error Message: ", error.message);
-    }
-  };
+				if (isUserAdmin) {
+					router.push("/admin/dashboard");
+				} else if (isUserCustomer) {
+					router.push("/customer/dashboard");
+				}
+			}
+		} catch (error: any) {
+			console.log("Error Message: ", error.message);
+		}
+	};
 
-  useEffect(() => {
-    checkUser();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+	useEffect(() => {
+		checkUser();
+		// eslint-disable-next-line react-hooks/exhaustive-deps
+	}, []);
 
-  return (
-    <main
-      className={`${
-        isOpen ? "overflow-y-hidden h-screen" : "min-h-screen"
-      } bg-secondary-50/20 w-full overflow-x-hidden relative pb-1`}
-    >
-      {/* <Steps
-        enabled={stepsEnabled}
-        steps={[
-          {
-            title: `
-            <h3 class="font-body text-base font-light py-1.5 h-full">
-              Hello 👋, Welcome to <span class="ml-1 font-medium text-normal text-primary-500">Autofore</span>
-            </h3>`,
-            element: "#navbar",
-            intro: `
-            <p class="font-body text-base font-light my-1 h-full text-normal">
-              Let's show you around.
-            </p>`,
-          },
-          {
-            element: "#services-section",
-            intro: `
-            <p class="font-body text-base font-light my-1 h-full text-normal">
-              Explore our services. 
-            </p>`,
-            position: "right",
-          },
-          {
-            element: "#how-it-works",
-            intro: `
-            <p class="font-body text-base font-light my-1 h-full text-normal">
-              This is how it works 
-            </p>`,
-            position: "right",
-          },
-          {
-            element: "#book-now-cta",
-            intro: `
-            <p class="font-body text-base my-1 h-full font-light">
-              Ready to get Started?. 
-            </p>`,
-            position: "bottom",
-          },
-          {
-            element: "#join-network-form",
-            intro: `
-            <p class="font-body text-base font-light my-1 h-full">
-              Are you a garage owner willing to join the garage network? Look no further.
-            </p>`,
-            position: "bottom",
-          },
-          {
-            element: "#testimonials",
-            intro: `
-            <p class="font-body text-base font-light my-1 h-full">
-              Here's what the clients say.
-            </p>`,
-            position: "bottom",
-          },
-          {
-            element: "#footer",
-            intro: `
-            <p class="font-body text-base font-light my-1 h-full">
-              Compelled to reachout? Contact us
-            </p>`,
-            position: "bottom",
-          },
-        ]}
-        initialStep={0}
-        onExit={() => setStepsEnabled(false)}
-        options={{
-          showProgress: true,
-          overlayOpacity: 0.01,
-          dontShowAgain: true,
-        }}
-      /> */}
-
-      <Navigation
-        isOpen={isOpen}
-        setIsOpen={setIsOpen}
-        handleServiceScoll={() => scrollToSection(serviceSectionRef)}
-        handleContactScroll={() => scrollToSection(contactSectionRef)}
-        handleAboutScroll={() => scrollToSection(aboutSectionRef)}
-      />
-      <Hero
+	return (
+		<main
+			className={`${
+				isOpen ? "overflow-y-hidden h-screen" : "min-h-screen"
+			} bg-secondary-50/20 w-full overflow-x-hidden relative pb-1`}>
+			<Navigation
+				isOpen={isOpen}
+				setIsOpen={setIsOpen}
+				handleServiceScoll={() => scrollToSection(serviceSectionRef)}
+				handleContactScroll={() => scrollToSection(contactSectionRef)}
+				handleAboutScroll={() => scrollToSection(aboutSectionRef)}
+			/>
+			{/*       <Hero
         handleRef={serviceSectionRef}
         className="w-full pt-4 mx-auto md:w-3/4 lg:w-1/2 md:pt-16 hero"
       />
-      <Services className="w-full pt-4 mx-auto md:w-3/4 lg:w-1/2 md:pt-16" />
+      <Services className="w-full pt-4 mx-auto md:w-3/4 lg:w-1/2 md:pt-16" /> */}
 
-      {/* How it works section  */}
-      <section
+			{/* How it works section  */}
+			{/*       <section
         className="px-2 pb-20 text-sm bg-white font-body md:text-base"
         ref={aboutSectionRef}
         id="how-it-works"
@@ -184,7 +112,7 @@ export default function Home() {
             How it Works
           </h2>
           <div className="container grid grid-cols-1 gap-10 mx-auto sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3">
-            {/* step One */}
+            step One
             <div className="relative p-5 text-center rounded-md bg-secondary-50/30 flex flex-col items-center">
               <div className="absolute p-1 rounded-md -top-3 bg-primary-500">
                 <svg
@@ -211,7 +139,7 @@ export default function Home() {
                 and choose a collection time slot.
               </h5>
             </div>
-            {/* Step two  */}
+            Step two
             <div className="relative p-5 text-center rounded-md bg-secondary-50/30 flex flex-col items-center">
               <div className="absolute p-1 rounded-md -top-3 bg-primary-500 ">
                 <svg
@@ -234,7 +162,7 @@ export default function Home() {
               </h3>
               <h5>Get a pin to auto service provider nearest to you.</h5>
             </div>
-            {/* Step three  */}
+            Step three
             <div className="relative p-5 text-center rounded-md bg-secondary-50/30 flex flex-col items-center">
               <div className="absolute p-1 rounded-md -top-3 bg-primary-500">
                 <svg
@@ -265,9 +193,9 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
-      <section
+			{/*       <section
         className="px-2 pb-20 text-sm  font-body md:text-base"
         id="join-network-form"
       >
@@ -280,12 +208,12 @@ export default function Home() {
               Connect with us and unlock exciting opportunities for your garage.
             </p>
           </div>
-          {/* Form for collecting garage information  */}
+           Form for collecting garage information
           <JoinNetworkForm />
         </div>
-      </section>
-      {/* Testimonal section  */}
-      <section
+      </section> */}
+			{/* Testimonal section  */}
+			{/*       <section
         className="w-full flex justify-center bg-white pt-10 py-20 h-fit"
         id="testimonials"
       >
@@ -302,7 +230,7 @@ export default function Home() {
                   data={testimonial}
                   key={index}
                   variants={transition}
-                  
+
                 />
               );
             })}
@@ -352,12 +280,12 @@ export default function Home() {
                 <span className="text-primary-500 font-medium">CEO Tuple</span>
               </div>
             </div>
-          </div> */}
+          </div>
         </div>
-      </section>
+      </section> */}
 
-      {/* footer  */}
-      <section
+			{/* footer  */}
+			{/*       <section
         ref={contactSectionRef}
         className="w-full pl-5 m-auto  text-white bg-primary-500"
         id="footer"
@@ -416,7 +344,7 @@ export default function Home() {
             </div>
           </div>
         </footer>
-      </section>
-    </main>
-  );
+      </section> */}
+		</main>
+	);
 }

@@ -5,7 +5,7 @@ import {
 	AuthFormValues,
 	authFormSchema,
 } from "@/utils/validators/loginValidator";
-import AuthForm from "@/components/AuthForm";
+import AuthForm from "@/forms/AuthForm";
 import PasswordInputField from "@/components/inputs/PasswordInputField";
 import TextInputField from "@/components/inputs/TextInputField";
 import AuthorizationService from "@/lib/services/authorization.service";

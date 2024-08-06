@@ -5,7 +5,7 @@ import {
 	RegistrationFormValues,
 	registrationFormSchema,
 } from "@/utils/validators/registraionValidator";
-import AuthForm from "@/components/AuthForm";
+import AuthForm from "@/forms/AuthForm";
 import TextInputField from "@/components/inputs/TextInputField";
 import PasswordInputField from "@/components/inputs/PasswordInputField";
 import { useRouter } from "next/navigation";
