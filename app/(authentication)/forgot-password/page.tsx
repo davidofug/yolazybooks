@@ -14,7 +14,6 @@ import TextInputField from "@/components/inputs/TextInputField";
 import { toast, ToastContainer } from "react-toastify";
 
 import UsersService from "@/lib/services/users.service";
-import OtpService from "@/lib/services/otp.service";
 
 const SignUp: React.FC<{}> = () => {
 	const router = useRouter();
@@ -34,15 +33,11 @@ const SignUp: React.FC<{}> = () => {
 			 *  */
 
 			const response = await UsersService.isUserRegistered({
-				phone: data.phone,
+				phone: data.email,
 			});
 			if (response?.userExists) {
-				localStorage.setItem("phone", data.phone);
-				const response = await OtpService.getOtp({
-					phone: data.phone,
-					type: "FORGOT PASSWORD",
-				});
-				console.log("Response: ", response);
+				localStorage.setItem("phone", data.email);
+				const response = await console.log("Response: ", response);
 				localStorage.setItem("token", response.token);
 				actions.resetForm({ values: { phone: "" } });
 				router.push("/verify-phone?type=forgot-password");

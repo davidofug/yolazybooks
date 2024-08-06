@@ -146,8 +146,8 @@ module.exports = {
 				h1: ["32px", { lineHeight: "38.4%" }],
 			},
 			fontFamily: {
-				body: ["var(--font-poppins)"],
-				heading: ["var(--font-roboto-slab)"],
+				body: ["var(--font-montserrat)"],
+				heading: ["var(--font-josefin-sans)"],
 			},
 			keyframes: {
 				spinLeft: {

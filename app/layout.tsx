@@ -1,25 +1,25 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { Roboto_Slab, Poppins } from "next/font/google";
+import { Josefin_Sans, Montserrat } from "next/font/google";
 import "react-toastify/dist/ReactToastify.css";
 import GoogleAnalytics from "@/components/GoogleAnaytics";
 import CookieBanner from "@/components/CookieBanner";
 import "intro.js/introjs.css";
 
-const poppins = Poppins({
+const JosefinSans = Josefin_Sans({
 	subsets: ["latin"],
-	weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-	variable: "--font-poppins",
+	weight: ["100", "200", "300", "400", "500", "600", "700"],
+	variable: "--font-josefin-sans",
 });
-const roboto_slab = Roboto_Slab({
+const montserrat = Montserrat({
 	subsets: ["latin"],
 	weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-	variable: "--font-roboto-slab",
+	variable: "--font-montserrat",
 });
 
 export const metadata: Metadata = {
 	title: "YoLazyBooks",
-	description: "Record and Track funds in Realtime.",
+	description: "Keep Financial records. Issue Invoices.",
 };
 
 export default function RootLayout({
@@ -30,7 +30,7 @@ export default function RootLayout({
 	return (
 		<html
 			lang="en"
-			className={`${poppins.variable} ${roboto_slab.variable}`}>
+			className={`${JosefinSans.variable} ${montserrat.variable}`}>
 			<GoogleAnalytics
 				GA_MEASUREMENT_ID={String(
 					process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS!

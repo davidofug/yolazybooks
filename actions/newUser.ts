@@ -3,7 +3,7 @@ import { env } from "process";
 import { ID } from "node-appwrite";
 
 const sdk = require("node-appwrite");
-import { UserInterface } from "@/interfaces/user.interface";
+import { UserInterface } from "@/types/user.interface";
 
 const client = new sdk.Client()
 	.setEndpoint(env.appwriteUrl) // Your API Endpoint
