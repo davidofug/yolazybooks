@@ -7,35 +7,39 @@ import CookieBanner from "@/components/CookieBanner";
 import "intro.js/introjs.css";
 
 const poppins = Poppins({
-  subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-  variable: "--font-poppins",
+	subsets: ["latin"],
+	weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+	variable: "--font-poppins",
 });
 const roboto_slab = Roboto_Slab({
-  subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-  variable: "--font-roboto-slab",
+	subsets: ["latin"],
+	weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+	variable: "--font-roboto-slab",
 });
 
 export const metadata: Metadata = {
-  title: "Autofore",
-  description: "Transforming Mobility",
+	title: "YoLazyBooks",
+	description: "Record and Track funds in Realtime.",
 };
 
 export default function RootLayout({
-  children,
+	children,
 }: {
-  children: React.ReactNode;
+	children: React.ReactNode;
 }) {
-  return (
-    <html lang="en" className={`${poppins.variable} ${roboto_slab.variable}`}>
-      <GoogleAnalytics
-        GA_MEASUREMENT_ID={String(process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS!)}
-      />
-      <body>
-        {children}
-        <CookieBanner />
-      </body>
-    </html>
-  );
+	return (
+		<html
+			lang="en"
+			className={`${poppins.variable} ${roboto_slab.variable}`}>
+			<GoogleAnalytics
+				GA_MEASUREMENT_ID={String(
+					process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS!
+				)}
+			/>
+			<body>
+				{children}
+				<CookieBanner />
+			</body>
+		</html>
+	);
 }
